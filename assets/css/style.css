@@ -906,7 +906,7 @@ background-color: white;
   }
   .partner-section .partner-logo .item::after {
     border-right: 2px solid rgb(32 64 102 / 50%);
-    border-radius: 50%;
+    border-radius: 49%;
     content: "";
     top: 0;
     height: 100%;
