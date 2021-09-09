@@ -1,0 +1,1026 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+/* ----------------------
+[Table of contents]
+ 
+01.Default CSS
+02.Navbar CSS
+03.Main Bannner Carousel CSS
+04.About Section CSS
+05.Services Section CSS
+06.Portfolio Section CSS
+07.Team Section CSS
+08.Stat Section CSS
+09.Pricing Section CSS
+10.Testimonial Section CSS
+11.Contact Section CSS
+12.Footer Section CSS
+
+ --------------------------*/
+
+
+/*===============================
+========== Default CSS ==========
+=================================*/
+/* *{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+span{
+    color: #ec4a71;
+    }
+.w-70{
+    width: 70%;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.white{
+    color: white;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+h4{
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 1rem;
+}
+h3{
+    font-size: 24px;
+}
+h2{
+    font-size: 30px;
+    line-height: 40px;
+}
+h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 36px;
+}
+p{
+    font-size: 16px;
+    color: #777777;
+    line-height: 22px;
+}
+.container-fluid{
+    padding: 0%;
+}
+.center-txt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.size{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.p-50{
+    padding: 50px 0;
+}
+.btn-style{
+    padding: 12px 30px;
+    border: 2px solid #ec4a71;
+    border-radius: 30px;
+    color: #ec4a71;
+    font-weight: 500;
+} */
+/*===============================
+========== Navbar CSS ===========
+=================================*/
+/* .navbar{
+    background: rgba(0, 0, 0, 0.671);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+}
+.sticky{
+
+    background-color: #fff!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar li a{
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.nav-link{
+    color: white!important;
+}
+.sticky .nav-link{
+    color: #000!important;
+}
+.nav-item a:hover{
+    color: #ec4a71!important;
+}
+.nav-link.active{
+    color: #ec4a71!important;
+} */
+/*===============================
+=== Main Bannner Carousel CSS ===
+=================================*/
+/* .banner-img{
+    filter: brightness(30%);
+}
+.main-banner-text{
+    position: absolute;
+    top: 60%;
+    width: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.main-banner-text .btn{
+    background-color: #ec4a71;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-weight: 500;
+    left: 0%;
+} */
+/*===============================
+======= About Section CSS =======
+=================================*/
+/* .about-content h4{
+    margin: 0;
+    font-weight: 700;
+    color: #777;
+}
+.about-video img{
+    width: 540px;
+}
+.about-video, .about-video-img{
+    position: relative;
+}
+.about-video .video-overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(236, 74, 113, 0.8);
+}
+.video-icon{
+    position: absolute;
+    left: 0;
+    top: 40%;
+    text-align: center;
+    right: 0;
+}
+.video-icon a{
+    font-size: 30px;
+    color: #fff;
+} */
+/*===============================
+===== Services Section CSS ======
+=================================*/
+/* #services {
+    background-color: rgba(236, 74, 113, 0.1);
+}
+.service-item {
+    box-shadow: 0 0 4px 0 #ccc;
+    border-radius: 4px;
+    padding: 55px 20px 40px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    transition: 0.3s;
+}
+.service-item:hover{
+transform: scale(1.05);
+}
+.service-item i {
+    color: #ec4a71;
+    font-size: 40px;
+    padding: 0 0 5px;
+} */
+/*===============================
+===== Portfolio Section CSS =====
+=================================*/
+/* .filter-button{
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    padding: 8px 20px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 50px;
+    background-color: #fff;
+}
+.filter-button.active,.filter-button:hover{
+    background-color: #ec4a71;
+    color: #fff;
+}
+.btn-default:active .filter-button:active{
+    background-color: #db584e;
+    color: white;
+}
+.portfolio-overlay{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(236, 74, 113, 0.8);
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+.portfolio-overlay:hover{
+    opacity: 1;
+} */
+/*===============================
+======== Team Section CSS =======
+=================================*/
+/* .team-single-item{
+    box-shadow: 0 0 6px 0px #ccc;
+    padding: 0 0 30px;
+    border-radius: 4px;
+}
+.team-single-item img {
+    border-radius: 4px 4px 0 0;
+}
+.team-social a{
+    border: 1px solid #ec4a71;
+    height: 40px;
+    width: 40px;
+    font-size: 18px;
+    line-height: 38px;
+    color: #ec4a71;
+    margin: 0 4px;
+    display: inline-block;
+}
+.team-social a:hover{
+    background-color: #ec4a71;
+    color: white;
+} */
+/*===============================
+======== Stat Section CSS =======
+=================================*/
+/* #stat{
+    background-image: url(../images/slide-1.jpg);
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.stat-overlay{
+    overflow: hidden;
+}
+.stat-overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(236, 74, 113, 0.8);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}  */
+/*===============================
+====== Pricing Section CSS ======
+=================================*/
+/* .pricing-table{
+    box-shadow: 0 0 4px 0 #ccc;
+    border-radius: 4px;
+    
+}
+.pricing-title h3{
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 40px 0 30px;
+    margin: 0;
+}
+.pricing-price{
+    height: 140px;
+    width: 140px;
+    margin: 0 auto;
+    border-radius: 100%;
+    font-weight: bold;
+    border: 2px solid #fff;
+    transition: 0.5s all ease;
+
+}
+.pricing-price h1{
+    color: #ec4a71;
+    font-weight: bold;
+    padding: 35px 0 0;
+    margin-bottom: 15px;
+}
+.pricing-price p{
+    color: #ec4a71; 
+    font-size: 12px;
+    margin: 0;
+    line-height: 10px;
+}
+.pricing-table:hover .pricing-price{
+    background-color: #ec4a71;
+    box-shadow: 0 0 1px 4px #ec4a71;
+}
+.pricing-table:hover .pricing-price p,
+.pricing-table:hover .pricing-price h1{
+    color: #fff;
+}
+.pricing-body ul li:first-child{
+    border-top: 1px solid #f1f1f1;
+}
+.pricing-body ul li{
+    padding: 12px 0;
+    color: #666;
+    font-size: 15px;
+    font-weight: 500;
+    border-bottom: 1px solid #f1f1f1;
+}
+.pricing-table.popular{
+    position: relative;
+    overflow: hidden;
+}
+.pricing-table.popular .ribbon{
+    position: absolute;
+    background-color: #2ecc71;
+    left: -48px;
+    top: 20px;
+    padding: 6px 60px;
+    transform: rotate(-45deg);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+} */
+/*===============================
+==== Testimonial Section CSS ====
+=================================*/
+/* #testimonial{
+    background-image: url(../images/slide-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+    padding: 80px 0;
+    color: white;
+}
+.testi-overlay::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.testi-img{
+    width: 100px !important;
+    margin: 0 auto;
+}    
+.testi-box{
+    padding: 60px 40px 80px;
+    background-color: #ec4a71;
+    border-radius: 4px;
+    width: 50%;
+    margin: 0 auto;
+}
+.testi-box p{
+    font-size: 14px;
+}
+.testi-qoute{
+    font-size: 20px;
+} */
+/*===============================
+====== Contact Section CSS ======
+=================================*/
+/* .contact-info .info-icon .icon-style {
+    font-size: 30px;
+    color: #ec4a71;
+    margin: 10px 0 0;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #ec4a71;
+    padding: 9px 10px;
+}
+.contact-info .info-content{
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+#contact p{
+    padding: 0;
+    margin: 0;
+}
+.contact-form input{
+    height: 50px;
+    border: 1px solid #e2e2e2;
+}
+.contact-btn .btn{
+    background-color: #ec4a71;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 30px;    
+    font-weight: 500;
+} */
+/*===============================
+======= Footer Section CSS ======
+=================================*/
+/* #footer{
+    background-color: #1A1E21;
+    padding-bottom: 0%;
+}
+.copyright-text p{
+    color: #fff;
+    font-weight: 500;
+    margin: 0;
+    padding: 30px 0;
+    font-size: 14px;
+} */
+
+
+
+
+/* .nice-select{
+float: left;
+} */
+.em-button-style{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0 0;
+    color: #213360;
+    background-color: #ffffff;
+}
+.navbar-top{
+    background-color: #283b6a;
+}
+.list{
+    /* z-index: 150; */
+    width: 310px;
+    padding: 40px !important;
+    border-radius: 0 0 6px 6px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 83px 0px rgb(9 29 62 / 15%);
+}
+
+
+
+/* .left_side .links-style i a{
+    margin: 10px;
+} */
+
+
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+p{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.top-header{
+    background-color: #283b6a;
+}
+.top-header-info-text{
+    font-size: 13px;
+}
+.nice-select{
+    border-radius: 0;
+    line-height: 34px;
+    font-weight: 500;
+    padding-left: 0px;
+    padding-right: 25px;
+}
+.emergency-btn{
+    color: #283b6a;
+    background: #fff;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 10px;
+}
+.emergency-btn p{
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+.phone_style{
+    font-size: 60px;
+    line-height: 1;
+    color: #21cdc0;
+    margin-bottom: 20px;
+}
+.phone_number{
+    margin-bottom: 20px;
+    font-size: 22px;
+    line-height: 1;
+}
+.phone_number a{
+    color: #3851a2 !important;
+    text-decoration: none;
+}
+.phone_number a:hover{
+    color: #21cdc0 !important;
+}
+.text-style{
+    line-height: 1.75;
+    margin-bottom: 15px;
+}
+.btn_secondary-color{
+color: #213360;
+font-weight: 700;
+}
+.appointment-btn a:hover{
+    color: #21cdc0;
+    transition: all ease 1s;
+}
+.mt-18{
+    margin-top: 18px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-21{
+    margin-top: 21px;
+}
+.top-header-icons-style{
+    color: #21cdc0;
+    font-size: 18px;
+}
+
+.top-header-social-links a {
+    color: #213360;
+    background-color: #21cdc0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 10px;
+    transition: all 0.4s linear;
+}
+.top-header-social-links a:hover{
+background-color: white;
+}
+.top-header-searchbar input{
+    position: relative;
+    height: 30px;
+    border: 0;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: transparent;
+    border: 2px solid;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.15);
+}
+.top-header-search-btn{
+    color: #ffffff;
+    background: transparent;
+    border: none;
+}
+.form-control{
+    font-style: italic !important;
+}
+.form-control:focus{
+    background-color: transparent;
+    color: white;
+    border: none;
+    box-shadow: none;
+}
+/* .banner-img{
+    filter: brightness(30%);
+} */
+.slide_content{
+    position: absolute;
+    transform: translateY(-150%);
+}
+/* .main-banner-text .btn{
+    background-color: #ec4a71;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px 30px;
+    font-weight: 500;
+    left: 0%;
+} */
+.features-list .feature-item .feature_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90px;
+    height: 90px;
+    font-size: 40px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    color: #213360;
+    background-color: #ffffff;
+    transition: all ease;
+}
+.slide_title {
+    font-size: 75px;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    color: #0e204d;
+    font-weight: 700;
+}
+.slide_desc {
+    color: #283b6a;
+    font-size: 17px;
+    line-height: 1.5;
+    font-weight: 700;
+    max-width: 650px;
+    margin-bottom: 30px;
+}
+
+
+
+.sticky{
+    background: rgba(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 11;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.navbar li a{
+    padding: 10px 15px;
+    font-size: 15px;
+}
+.nav-link{
+    color: #283b6a!important;
+}
+.sticky .nav-link{
+    color: #283b6a!important;
+}
+.nav-item a:hover{
+    color: #21cdc0!important;
+}
+.nav-link.active{
+    color: #21cdc0!important;
+}
+.btn_wrpper{
+    display: inline-block;
+}
+.btn_primary {
+    color: #fff !important;
+    background-color: #21cdc0;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 18px 16px 18px 16px;
+    transition: all 0.4s linear;
+    position: relative;
+    border: none;
+    z-index: 10;
+}
+.btn_primary::after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 58px;
+    border-radius: 50px;
+    opacity: 0;
+    background-color: #0e204d;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    z-index: -1;
+}
+.btn_wrpper:hover .btn_primary::after{
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+
+.btn_primary_2 {
+    color: #ffffff;
+    background-color: transparent;
+    border: 1px white solid;
+    border-radius: 50px;
+    font-size: 12px;
+    padding: 10px;
+    transition: all 0.4s linear;
+
+}
+.btn_primary_2:hover {
+    color: #213360;
+    background-color: white;
+}
+
+.contact-info {
+    position: relative;
+    z-index: 3;
+    margin-top: -100px;
+    color: white;
+}
+.contact-box{
+    align-items: center;
+    flex-direction: column;
+}
+.contact_title{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.contact-content-btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.contact-info .contact-box-1 {
+    background-color: #21cdc0;
+    height: 100%;
+    padding: 45px; 
+    border-radius: 10px 0 0 10px;
+}
+/* .contact-info .contact-box-1 .phone_number-2 .icon-phone {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    background-color: #1ebaae;
+} */
+.contact-info .contact-box-2 {
+    background-color: #3851a2;
+    height: 100%;
+    padding: 45px;
+}
+.contact-info .contact-box-3 {
+    background-color: #153992;
+    height: 100%;
+    padding: 45px;
+    border-radius: 0px 10px 10px 0;
+}
+.phone_number-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.phone_number-2 a{
+    text-decoration: none;
+    color: white;
+}
+.contact-info .contact_icon {
+    font-size: 50px;
+    flex: 0 0 80px;
+}
+.contact-info .contact_content .contact_title {
+    font-size: 19px;
+}
+.contact-info .contact_content .contact_desc {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+
+
+.time_list li {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dcdee2;
+}
+.time_list_2 li {
+    font-size: 14px;
+    display: flex;
+}
+.time_list_3 li {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.footer-top{
+    background-color: #1d2a4d;
+    color: white;
+    padding: 62px 0 0;
+}
+.style-line {
+    border-top: 3px solid #21cdc0;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+
+
+
+.newsteller{
+    background-color: #204066;
+    padding: 20px 15px;
+    margin-top: 40px;
+
+}
+.newsteller-text{
+    font-size: 18px;
+}
+
+.newsteller-inputbox {
+    display: flex;
+}
+
+.newsteller-inputbox input[type="email"] {
+    padding: 12px 24px; 
+    border: none;
+    padding-right: 150px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.newsteller-inputbox input[type="email"]:focus {
+    border: none;
+    border: 1px solid transparent;
+}
+.newsteller-inputbox button[type="submit"] {
+    background-color: #12b48b;
+    color:white;
+    border: none;
+    position: absolute;
+    right: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 17px 7px;
+    height: 45px;
+    border-radius: 0 2em 2em 0;
+    transition: all 0.35s ease;
+}
+.newsteller-inputbox button[type="submit"]:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #204066;
+}
+
+
+
+
+/*===============================
+======== Stat Section CSS =======
+=================================*/
+#stat{
+    background-image: url(../images/slider-2.jpg);
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.stat-overlay{
+    overflow: hidden;
+}
+.stat-overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(29, 42, 77, 0.5);;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+} 
+
+
+
+.copyright {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.footer-bottom .copyright a{
+    color: #fff;
+}
+.footer-bottom .copyright a:hover{
+    color: #21cdc0;
+}
+
+
+.section-title h5 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.5px;
+    color: #9dabaf;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-title h2.title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #0e204d;
+    line-height: 50px;
+}
+/* h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0e204d;
+} */
+.intro-feature-text{
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0e204d;
+}
+.intro-arrow-style{
+    color: #21cdc0;
+}
+.intro-list-text{
+    font-size: 12px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.btn-intro-list {
+    color: #ffffff;
+    background-color: #21cdc0;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 50px;
+    transition: all 0.4s linear;
+
+}
+.btn-intro-list:hover {
+    color: #ffffff;
+    background-color: #213360;
+}
+
+
+
+
+
+/* NEW CODE */
+.main-banner-img1{
+    background-image: url(../images/slider-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.main-banner-img2{
+    background-image: url(../images/slider-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 80vh;
+}
+.main-banner-txt{
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+.main-textbox{
+    width: 60%;
+}
+.main-banner-txt h2{
+    color: #0e204d;
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.main-banner-txt p{
+    color: #283b6a;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    line-height: 2;
+}
