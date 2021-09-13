@@ -963,7 +963,7 @@ background-color: white;
 }
 .services-icon-box {
     border: 1px solid #69d6b8;
-    padding: 40px 35px 20px 30px;
+    padding: 40px 35px 30px 30px;
     position: relative;
     overflow: hidden;
     transition: all 1s ease;
@@ -1037,21 +1037,20 @@ background-color: white;
 ===== Portfolio Section CSS =====
 =================================*/
 .filter-button{
-    font-size: 18px;
+    font-size: 15px;
     text-align: center;
-    color: black;
-    padding: 8px 20px;
-    border: 1px solid #e2e2e2;
-    margin-bottom: 50px;
-    background-color: #fff;
+    color: #fff;
+    margin-bottom: 12px;   
+}
+.filter-button:focus{
+outline: none!important;
+box-shadow: none;
 }
 .filter-button.active,.filter-button:hover{
-    background-color: #ec4a71;
-    color: #fff;
+    color: #21cdc0 ;
 }
 .btn-default:active .filter-button:active{
-    background-color: #db584e;
-    color: white;
+    color: #21cdc0 ;
 }
 .portfolio-overlay{
     position: absolute;
@@ -1059,7 +1058,7 @@ background-color: white;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgba(236, 74, 113, 0.8);
+    background-color: rgb(29, 42, 77, 0.5);;
     opacity: 0;
     width: 100%;
     height: 100%;
@@ -1070,14 +1069,63 @@ background-color: white;
 }
 
 
+
+
+
 /* ==========================
       Porfolio/Research Section
 ============================*/
 .research{
     background-color: #1d2a4d;
 }
+.research-title{
+    font-weight: 600;
+    font-size: 35px;
+    color: #21cdc0;
+    line-height: 50px;
+}
+/* .research .gallery_product .img:hover{
+transform: scale(1,1);
+} */
+.img{
+    transition: all 0.5s ease;  
+}
+.img:hover{
+    transform: scale(1.1,1.1);
+}
+.btn_wrapper{
+    position: relative;
 
+}
+.btn_wrapper::after{
+    position: absolute;
+    content:"";
+    top: 30%;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #21cdc0;
+    border-radius: 50px;
+}
+.filter-button::after{
+    position: absolute;
+    content: "";
+    bottom: 0;
+    left: 10px;
+    height: 3px;
+    background-color: #21cdc0;
+    width: 0%;
+    border-radius: 50px;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
 
+.btn_wrapper:hover .filter-button::after{
+    opacity: 1;
+    width: 40%;
+}
+
+.portfolio-menu button
 
 
 
