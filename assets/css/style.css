@@ -480,8 +480,8 @@ float: left;
 
 
 section{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 
@@ -975,6 +975,9 @@ background-color: white;
     border-radius: 0px 10px 10px 0px;
 }
 
+@media only screen and (max-width:992px) and (min-width:768){
+    
+ }
 @media only screen and (max-width:767px){
    .style1{
     border-radius: 10px 0 0 0px;
@@ -1003,6 +1006,8 @@ background-color: white;
      border-radius: 0px 0 10px 10px;
     }
  }
+
+
 
 .services-icon-box:hover{
     background-color: white;
@@ -1052,17 +1057,34 @@ box-shadow: none;
 .btn-default:active .filter-button:active{
     color: #21cdc0 ;
 }
+.center-txt {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 .portfolio-overlay{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    background-color: rgb(29, 42, 77, 0.5);;
+    background-image: -webkit-linear-gradient(90deg,rgba( 18,180,139)0%,rgba(0,0,0,.5) 70%);
     opacity: 0;
     width: 100%;
     height: 100%;
     transition: 0.5s;
+}
+.portfolio-overlay .center-txt h6{
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+.portfolio-overlay .center-txt p{
+    cursor: pointer;
+}
+.portfolio-overlay .center-txt h6:hover{
+color: #21cdc0;
 }
 .portfolio-overlay:hover{
     opacity: 1;
@@ -1100,10 +1122,10 @@ transform: scale(1,1);
 .btn_wrapper::after{
     position: absolute;
     content:"";
-    top: 30%;
-    left: 0;
-    height: 15px;
-    width: 15px;
+    top: 40%;
+    left: -5px;
+    height: 8px;
+    width: 8px;
     background-color: #21cdc0;
     border-radius: 50px;
 }
@@ -1122,10 +1144,47 @@ transform: scale(1,1);
 
 .btn_wrapper:hover .filter-button::after{
     opacity: 1;
-    width: 40%;
+    width: 45%;
 }
+@media only screen and (max-width:992px){
+    .portfolio-menu{
+        display: flex;
+        justify-content: center;
+    }
+    .btn_wrapper::after {
+        display: none;
+    }
+    .filter-button::after{
+        bottom: 13px;
+        left: 10px;       
+    }
+    .btn_wrapper:hover .filter-button::after{
+        opacity: 1;
+        width: 80%;
+    }
+}
+@media only screen and (max-width:576px){
+    .btn_wrapper{
+        margin: -8px;
+    }
+    .btn-wrapper-3{
+        display: none;
+    }
+    .filter-button {
+        font-size: 12px;
+    }
+ }
+ @media only screen and (max-width:392px){
+    .filter-button {
+        font-size: 10px;
+    }
+    /* .portfolio-menu{
+       display: block;
+    }
+     */
+ }
 
-.portfolio-menu button
+
 
 
 
@@ -1140,6 +1199,28 @@ transform: scale(1,1);
 
 
 
+/* ===============================================
+    GoTop BUtton
+------------------------*/
+.totop {
+    background-color: #21cdc0;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 4px 11px;
+    transition: 0.5s;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99;
+}
+  .totop:hover{
+    color: #fff;
+    background-color:  #204066;
+  }
 
 /*===============================
 ======== Stat Section CSS =======
@@ -1161,7 +1242,7 @@ transform: scale(1,1);
     top: 0;
     left: 0;
     color: white;
-    background-color: rgb(29, 42, 77, 0.5);;
+    background-color: rgb(29 42 77 / 70%);
     opacity: 1;
     width: 100%;
     height: 100%;

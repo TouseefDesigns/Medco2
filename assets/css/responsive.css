@@ -428,6 +428,16 @@ p{
     .main-banner-txt h2{
         font-size: 45px;
     }
+    /* About Section button */
+    .btn-intro-list {
+        color: #ffffff;
+        background-color: #21cdc0;
+        border-radius: 50px;
+        font-size: 12px;
+        font-weight: 700;
+        padding: 10px 30px;
+        transition: all 0.4s linear;
+    }
 }
 @media only screen and (max-width:500px){
     .main-banner-txt h2{
