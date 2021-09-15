@@ -1247,7 +1247,10 @@ text-decoration: none;
   
   .item .member__info .member__desc {
     font-size: 15px;
-    margin-bottom: 0;
+    margin-bottom: 10px;
+  }
+  .team-section .item:hover{
+   box-shadow: 0px 30px 20px 20px rgb(9 29 62 / 15%);
   }
 /*   
   .item .member__hover {
@@ -1279,19 +1282,49 @@ text-decoration: none;
   }
   
   .item .social-icons li a.facebook {
-    background-color: #3b5999;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #21cdc0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.4s linear;
   }
   
   .item .social-icons li a.twitter {
-    background-color: #55acee;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #21cdc0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.4s linear;
   }
   
   .item .social-icons li a.phone {
-    background-color: #283b6a;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #21cdc0;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 32px;
+    border-radius: 50%;
+    font-size: 15px;
+    text-align: center;
+    transition: all 0.4s linear;
   }
   
-  .member .social-icons li a:hover {
-    background-color: #222222;
+  .item .social-icons li a:hover {
+    background-color: #0e204d;
   }
 /*   
   .item .social-icons li:nth-of-type(1) {
@@ -1313,7 +1346,18 @@ text-decoration: none;
     padding: 12px 0;
     opacity: 1;
     transition: all 0.3s linear;
+    font-size: 15px;
+    color: #ffffff !important;
+    opacity: 1;
+    border-radius: 50px;
+    padding: 8px;
+    /* margin-top: 8px; */
+    background-color: #21cdc0 !important;
     /* margin-top: 5px; */
+  }
+  .item .btn__link.btn__secondary .team-arrow  {
+    font-size: 12px;
+    font-weight: normal;
   }
   
   /* .item .btn__link.btn__secondary i {
@@ -1326,9 +1370,8 @@ text-decoration: none;
   } */
   
   .item .btn__link.btn__secondary:hover {
-    color: #21cdc0  !important;
-    opacity: 1;
-    /* background-color: #21cdc0 !important; */
+    color: #ffffff !important;
+    background-color: #0e204d !important;
   }
   
 
