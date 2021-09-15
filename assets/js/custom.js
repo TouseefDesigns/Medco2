@@ -39,6 +39,35 @@ $(document).ready(function () {
 
 
 
+//======================
+    // Team Section
+    //======================
+
+
+    $(".team-carousel").owlCarousel({
+      loop: true,
+      margin: 30,
+      autoplay: false,
+      nav: false,
+      dots: false,
+      autoplayTimeout:1000,
+      responsive: {
+          0: {
+              items: 1
+          },
+          600: {
+              items: 2
+          },
+          768: {
+              items: 3
+          },
+          1000: {
+              items: 4
+          }
+      }
+  });
+
+
 
     //======================
     // Partner slider carousel

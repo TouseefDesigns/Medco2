@@ -572,6 +572,13 @@ font-weight: 700;
     font-size: 18px;
 }
 
+
+.top-header-contact-info .top-header-location a{
+    text-decoration: none;
+}
+
+
+
 .top-header-social-links a {
     color: #213360;
     background-color: #21cdc0;
@@ -975,8 +982,19 @@ background-color: white;
     border-radius: 0px 10px 10px 0px;
 }
 
-@media only screen and (max-width:992px) and (min-width:768){
-    
+@media only screen and (max-width:992px){
+    .style1{
+        border-radius: 10px 0 0 0px;
+       }
+       .style2{
+        border-radius: 0px 10px 0 0px;
+       }
+       .style3{
+        border-radius: 0px 0 0 10px;
+       }
+       .style4{
+        border-radius: 0px 0 10px 0px;
+       }
  }
 @media only screen and (max-width:767px){
    .style1{
@@ -1006,9 +1024,6 @@ background-color: white;
      border-radius: 0px 0 10px 10px;
     }
  }
-
-
-
 .services-icon-box:hover{
     background-color: white;
     /* border: 1px solid #213360; */
@@ -1029,7 +1044,6 @@ background-color: white;
     font-size: 60px;
     color: #213360;
 }
-
 .service-a{
     font-size: 12px;
     font-weight: 600;
@@ -1089,7 +1103,9 @@ color: #21cdc0;
 .portfolio-overlay:hover{
     opacity: 1;
 }
-
+@media only screen and (max-width:1200px){
+    
+ }
 
 
 
@@ -1183,44 +1199,144 @@ transform: scale(1,1);
     }
      */
  }
-
-
-
-
-
-
-
 /* ==========================
       Porfolio/Research Section END
 ============================*/
 
 
-
-
-
-
-/* ===============================================
-    GoTop BUtton
-------------------------*/
-.totop {
+/* ==========================
+      Team Section
+============================*/
+.team-section{
     background-color: #21cdc0;
-    color: #fff;
-    font-weight: 900;
-    font-size: 15px;
-    padding: 4px 11px;
-    transition: 0.5s;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-    z-index: 99;
 }
-  .totop:hover{
-    color: #fff;
-    background-color:  #204066;
+.item .rounded{
+        border-radius: 10px 10px 0 0 !important;
+}
+
+
+
+.item .member__info {
+    padding: 15px 15px;
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    
   }
+  .item .member__info a {
+text-decoration: none;    
+  }
+
+  
+  .item .member__info .member__name {
+    font-size: 21px;
+    margin-bottom: 11px;
+  }
+  
+  .item .member__info .member__name a {
+    color: #0e204d;
+  }
+  
+  .item .member__info .member__name a:hover {
+    color: #21cdc0;
+  }
+  
+  .item .member__info .member__job {
+    color: #21cdc0;
+    margin-bottom: 10px;
+  }
+  
+  .item .member__info .member__desc {
+    font-size: 15px;
+    margin-bottom: 0;
+  }
+/*   
+  .item .member__hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    -webkit-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+  } */
+  
+  .item .social-icons li {
+    opacity: 1;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .item .social-icons li a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .item .social-icons li a.facebook {
+    background-color: #3b5999;
+  }
+  
+  .item .social-icons li a.twitter {
+    background-color: #55acee;
+  }
+  
+  .item .social-icons li a.phone {
+    background-color: #283b6a;
+  }
+  
+  .member .social-icons li a:hover {
+    background-color: #222222;
+  }
+/*   
+  .item .social-icons li:nth-of-type(1) {
+    -webkit-transition-delay: 100ms;
+            transition-delay: 100ms;
+  }
+  
+  .item .social-icons li:nth-of-type(2) {
+    -webkit-transition-delay: 200ms;
+            transition-delay: 200ms;
+  }
+  
+  .item .social-icons li:nth-of-type(3) {
+    -webkit-transition-delay: 300ms;
+            transition-delay: 300ms;
+  }
+   */
+  .item .btn__link.btn__secondary {
+    padding: 12px 0;
+    opacity: 1;
+    transition: all 0.3s linear;
+    /* margin-top: 5px; */
+  }
+  
+  /* .item .btn__link.btn__secondary i {
+    width: auto;
+    height: auto;
+    margin-left: 3px;
+    color: #213360;
+    background-color: transparent !important;
+    transition: all 0.3s linear;
+  } */
+  
+  .item .btn__link.btn__secondary:hover {
+    color: #21cdc0  !important;
+    opacity: 1;
+    /* background-color: #21cdc0 !important; */
+  }
+  
+
+
+/* ==========================
+      Team Section END
+============================*/
+
 
 /*===============================
 ======== Stat Section CSS =======
@@ -1361,3 +1477,28 @@ transform: scale(1,1);
     font-weight: bold;
     line-height: 2;
 }
+
+
+
+/* ===============================================
+    GoTop BUtton
+------------------------*/
+.totop {
+    background-color: #21cdc0;
+    color: #fff;
+    font-weight: 900;
+    font-size: 15px;
+    padding: 4px 11px;
+    transition: 0.5s;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99;
+}
+  .totop:hover{
+    color: #fff;
+    background-color:  #204066;
+  }

@@ -438,6 +438,14 @@ p{
         padding: 10px 30px;
         transition: all 0.4s linear;
     }
+    #stat h4 {
+        font-size: 15px!important;
+        margin-bottom: 5px;
+    }
+    #stat h2 {
+        font-size: 25px!important;
+        margin-bottom: 5px;
+    }
 }
 @media only screen and (max-width:500px){
     .main-banner-txt h2{
