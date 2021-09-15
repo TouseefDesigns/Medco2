@@ -47,7 +47,7 @@ $(document).ready(function () {
     $(".team-carousel").owlCarousel({
       loop: true,
       margin: 30,
-      autoplay: true,
+      autoplay: false,
       nav: false,
       dots: false,
       autoplayTimeout:5000,
@@ -56,10 +56,10 @@ $(document).ready(function () {
               items: 1
           },
           600: {
-              items: 2
+              items: 1
           },
           768: {
-              items: 3
+              items: 2
           },
           1000: {
               items: 3

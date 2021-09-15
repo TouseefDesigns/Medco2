@@ -100,349 +100,65 @@ p{
 /*===============================
 ========== Navbar CSS ===========
 =================================*/
-/* .navbar{
-    background: rgba(0, 0, 0, 0.671);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 11;
-}
-.sticky{
 
-    background-color: #fff!important;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.navbar li a{
-    padding: 10px 15px;
-    font-size: 15px;
-}
-.nav-link{
-    color: white!important;
-}
-.sticky .nav-link{
-    color: #000!important;
-}
-.nav-item a:hover{
-    color: #ec4a71!important;
-}
-.nav-link.active{
-    color: #ec4a71!important;
-} */
+
+
 /*===============================
 === Main Bannner Carousel CSS ===
 =================================*/
-/* .banner-img{
-    filter: brightness(30%);
-}
-.main-banner-text{
-    position: absolute;
-    top: 60%;
-    width: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-    color: #fff;
-}
-.main-banner-text .btn{
-    background-color: #ec4a71;
-    font-size: 14px;
-    margin-top: 20px;
-    padding: 10px 30px;
-    font-weight: 500;
-    left: 0%;
-} */
+
+
+
 /*===============================
 ======= About Section CSS =======
 =================================*/
-/* .about-content h4{
-    margin: 0;
-    font-weight: 700;
-    color: #777;
-}
-.about-video img{
-    width: 540px;
-}
-.about-video, .about-video-img{
-    position: relative;
-}
-.about-video .video-overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(236, 74, 113, 0.8);
-}
-.video-icon{
-    position: absolute;
-    left: 0;
-    top: 40%;
-    text-align: center;
-    right: 0;
-}
-.video-icon a{
-    font-size: 30px;
-    color: #fff;
-} */
+
+
+
 /*===============================
 ===== Services Section CSS ======
 =================================*/
-/* #services {
-    background-color: rgba(236, 74, 113, 0.1);
-}
-.service-item {
-    box-shadow: 0 0 4px 0 #ccc;
-    border-radius: 4px;
-    padding: 55px 20px 40px;
-    margin-bottom: 30px;
-    background-color: #fff;
-    transition: 0.3s;
-}
-.service-item:hover{
-transform: scale(1.05);
-}
-.service-item i {
-    color: #ec4a71;
-    font-size: 40px;
-    padding: 0 0 5px;
-} */
+
+
 /*===============================
 ===== Portfolio Section CSS =====
 =================================*/
-/* .filter-button{
-    font-size: 18px;
-    text-align: center;
-    color: black;
-    padding: 8px 20px;
-    border: 1px solid #e2e2e2;
-    margin-bottom: 50px;
-    background-color: #fff;
-}
-.filter-button.active,.filter-button:hover{
-    background-color: #ec4a71;
-    color: #fff;
-}
-.btn-default:active .filter-button:active{
-    background-color: #db584e;
-    color: white;
-}
-.portfolio-overlay{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background-color: rgba(236, 74, 113, 0.8);
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    transition: 0.5s;
-}
-.portfolio-overlay:hover{
-    opacity: 1;
-} */
+
+
 /*===============================
 ======== Team Section CSS =======
 =================================*/
-/* .team-single-item{
-    box-shadow: 0 0 6px 0px #ccc;
-    padding: 0 0 30px;
-    border-radius: 4px;
-}
-.team-single-item img {
-    border-radius: 4px 4px 0 0;
-}
-.team-social a{
-    border: 1px solid #ec4a71;
-    height: 40px;
-    width: 40px;
-    font-size: 18px;
-    line-height: 38px;
-    color: #ec4a71;
-    margin: 0 4px;
-    display: inline-block;
-}
-.team-social a:hover{
-    background-color: #ec4a71;
-    color: white;
-} */
+
+
 /*===============================
 ======== Stat Section CSS =======
 =================================*/
-/* #stat{
-    background-image: url(../images/slide-1.jpg);
-    height: 50%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-}
-.stat-overlay{
-    overflow: hidden;
-}
-.stat-overlay::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: white;
-    background-color: rgba(236, 74, 113, 0.8);
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-}  */
+
+
+
 /*===============================
 ====== Pricing Section CSS ======
 =================================*/
-/* .pricing-table{
-    box-shadow: 0 0 4px 0 #ccc;
-    border-radius: 4px;
-    
-}
-.pricing-title h3{
-    font-weight: bold;
-    text-transform: uppercase;
-    padding: 40px 0 30px;
-    margin: 0;
-}
-.pricing-price{
-    height: 140px;
-    width: 140px;
-    margin: 0 auto;
-    border-radius: 100%;
-    font-weight: bold;
-    border: 2px solid #fff;
-    transition: 0.5s all ease;
 
-}
-.pricing-price h1{
-    color: #ec4a71;
-    font-weight: bold;
-    padding: 35px 0 0;
-    margin-bottom: 15px;
-}
-.pricing-price p{
-    color: #ec4a71; 
-    font-size: 12px;
-    margin: 0;
-    line-height: 10px;
-}
-.pricing-table:hover .pricing-price{
-    background-color: #ec4a71;
-    box-shadow: 0 0 1px 4px #ec4a71;
-}
-.pricing-table:hover .pricing-price p,
-.pricing-table:hover .pricing-price h1{
-    color: #fff;
-}
-.pricing-body ul li:first-child{
-    border-top: 1px solid #f1f1f1;
-}
-.pricing-body ul li{
-    padding: 12px 0;
-    color: #666;
-    font-size: 15px;
-    font-weight: 500;
-    border-bottom: 1px solid #f1f1f1;
-}
-.pricing-table.popular{
-    position: relative;
-    overflow: hidden;
-}
-.pricing-table.popular .ribbon{
-    position: absolute;
-    background-color: #2ecc71;
-    left: -48px;
-    top: 20px;
-    padding: 6px 60px;
-    transform: rotate(-45deg);
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-} */
+
+
+
 /*===============================
 ==== Testimonial Section CSS ====
 =================================*/
-/* #testimonial{
-    background-image: url(../images/slide-3.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-    background-attachment: fixed;
-    padding: 80px 0;
-    color: white;
-}
-.testi-overlay::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-}
-.testi-img{
-    width: 100px !important;
-    margin: 0 auto;
-}    
-.testi-box{
-    padding: 60px 40px 80px;
-    background-color: #ec4a71;
-    border-radius: 4px;
-    width: 50%;
-    margin: 0 auto;
-}
-.testi-box p{
-    font-size: 14px;
-}
-.testi-qoute{
-    font-size: 20px;
-} */
+
+
+
+
 /*===============================
 ====== Contact Section CSS ======
 =================================*/
-/* .contact-info .info-icon .icon-style {
-    font-size: 30px;
-    color: #ec4a71;
-    margin: 10px 0 0;
-    height: 50px;
-    width: 50px;
-    border: 2px solid #ec4a71;
-    padding: 9px 10px;
-}
-.contact-info .info-content{
-    padding-left: 10px;
-    padding-bottom: 30px;
-}
-#contact p{
-    padding: 0;
-    margin: 0;
-}
-.contact-form input{
-    height: 50px;
-    border: 1px solid #e2e2e2;
-}
-.contact-btn .btn{
-    background-color: #ec4a71;
-    font-size: 14px;
-    margin-top: 20px;
-    padding: 10px 30px;    
-    font-weight: 500;
-} */
+
+
+
 /*===============================
 ======= Footer Section CSS ======
 =================================*/
-/* #footer{
-    background-color: #1A1E21;
-    padding-bottom: 0%;
-}
-.copyright-text p{
-    color: #fff;
-    font-weight: 500;
-    margin: 0;
-    padding: 30px 0;
-    font-size: 14px;
-} */
 
 
 
@@ -969,7 +685,7 @@ background-color: white;
     background-color: white;
 }
 .services-icon-box {
-    border: 1px solid #69d6b8;
+    border: 1px solid #ffffff;
     padding: 40px 35px 30px 30px;
     position: relative;
     overflow: hidden;
@@ -1039,6 +755,7 @@ background-color: white;
 }
 .services-icon-box:hover a{
     color: #213360!important;
+    letter-spacing: 1px;
 }
 .service-icon{
     font-size: 60px;
@@ -1194,14 +911,7 @@ transform: scale(1,1);
     .filter-button {
         font-size: 10px;
     }
-    /* .portfolio-menu{
-       display: block;
-    }
-     */
  }
-/* ==========================
-      Porfolio/Research Section END
-============================*/
 
 
 /* ==========================
@@ -1213,66 +923,39 @@ transform: scale(1,1);
 .item .rounded{
         border-radius: 10px 10px 0 0 !important;
 }
-
-
-
 .item .member__info {
     padding: 15px 15px;
     background-color: white;
     border-radius: 0 0 10px 10px;
-    
   }
   .item .member__info a {
 text-decoration: none;    
-  }
-
-  
+  }  
   .item .member__info .member__name {
     font-size: 21px;
     margin-bottom: 11px;
   }
-  
   .item .member__info .member__name a {
     color: #0e204d;
   }
-  
   .item .member__info .member__name a:hover {
     color: #21cdc0;
   }
-  
   .item .member__info .member__job {
     color: #21cdc0;
     margin-bottom: 10px;
   }
-  
   .item .member__info .member__desc {
     font-size: 15px;
     margin-bottom: 10px;
   }
   .team-section .item:hover{
-   box-shadow: 0px 30px 20px 20px rgb(9 29 62 / 15%);
+   box-shadow: 0px 30px 20px 12px rgb(9 29 62 / 15%);
   }
-/*   
-  .item .member__hover {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    opacity: 0;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    border-radius: 4px;
-    -webkit-transition: all 0.5s linear;
-    transition: all 0.5s linear;
-  } */
-  
   .item .social-icons li {
     opacity: 1;
     transition: all 0.4s ease-in-out;
   }
-  
   .item .social-icons li a {
     width: 40px;
     height: 40px;
@@ -1280,7 +963,6 @@ text-decoration: none;
     font-size: 16px;
     color: #ffffff;
   }
-  
   .item .social-icons li a.facebook {
     margin: 5px;
     color: #ffffff;
@@ -1294,7 +976,6 @@ text-decoration: none;
     text-align: center;
     transition: all 0.4s linear;
   }
-  
   .item .social-icons li a.twitter {
     margin: 5px;
     color: #ffffff;
@@ -1308,7 +989,6 @@ text-decoration: none;
     text-align: center;
     transition: all 0.4s linear;
   }
-  
   .item .social-icons li a.phone {
     margin: 5px;
     color: #ffffff;
@@ -1322,26 +1002,9 @@ text-decoration: none;
     text-align: center;
     transition: all 0.4s linear;
   }
-  
   .item .social-icons li a:hover {
     background-color: #0e204d;
   }
-/*   
-  .item .social-icons li:nth-of-type(1) {
-    -webkit-transition-delay: 100ms;
-            transition-delay: 100ms;
-  }
-  
-  .item .social-icons li:nth-of-type(2) {
-    -webkit-transition-delay: 200ms;
-            transition-delay: 200ms;
-  }
-  
-  .item .social-icons li:nth-of-type(3) {
-    -webkit-transition-delay: 300ms;
-            transition-delay: 300ms;
-  }
-   */
   .item .btn__link.btn__secondary {
     padding: 12px 0;
     opacity: 1;
@@ -1358,17 +1021,7 @@ text-decoration: none;
   .item .btn__link.btn__secondary .team-arrow  {
     font-size: 12px;
     font-weight: normal;
-  }
-  
-  /* .item .btn__link.btn__secondary i {
-    width: auto;
-    height: auto;
-    margin-left: 3px;
-    color: #213360;
-    background-color: transparent !important;
-    transition: all 0.3s linear;
-  } */
-  
+  }  
   .item .btn__link.btn__secondary:hover {
     color: #ffffff !important;
     background-color: #0e204d !important;
@@ -1376,10 +1029,50 @@ text-decoration: none;
   
 
 
-/* ==========================
-      Team Section END
-============================*/
-
+/*===============================
+======== Department Section CSS =======
+=================================*/
+.department-section{
+    background-color: #1d2a4d;
+}
+.service-item {
+    box-shadow: 0 0 4px 0 #ccc;
+    border-radius: 10px;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    /* background-color: #fff; */
+    transition: all 0.4s linear;
+    color: white;
+}
+.service-item:hover{
+    background-color: white;
+    color: #1d2a4d;
+transform: scale(1.05);
+}
+.service-item .d-flex .neu {
+    color: #21cdc0!important;
+    font-size: 40px;
+    padding: 0 0 5px;
+}
+.service-item .btn__link.btn__secondary {
+    padding: 12px 0;
+    transition: all 0.3s linear;
+    font-size: 15px;
+    color: #ffffff !important;
+    border-radius: 50px;
+    padding: 8px;
+    border: 1px solid white;
+    /* background-color: #21cdc0 !important; */
+  }
+  .service-item .btn__link.btn__secondary .team-arrow  {
+    font-size: 12px;
+    font-weight: normal;
+  }  
+  .service-item:hover .btn__link.btn__secondary {
+    color: #ffffff !important;
+    background-color: #21cdc0 !important;
+  }
+  
 
 /*===============================
 ======== Stat Section CSS =======
