@@ -47,7 +47,8 @@ $(document).ready(function () {
     $(".team-carousel").owlCarousel({
       loop: true,
       margin: 30,
-      autoplay: false,
+      autoplay: true,
+      smartSpeed: 1500,
       nav: false,
       dots: false,
       autoplayTimeout:5000,
@@ -77,6 +78,7 @@ $(document).ready(function () {
     $(".partner-logo").owlCarousel({
       loop: true,
       margin: 30,
+      smartSpeed: 1500,
       autoplay: true,
       nav: false,
       dots: false,
@@ -102,19 +104,23 @@ $(document).ready(function () {
 /*===========================
 ==== Main Banner Carousel ===
 =============================*/
-// $('#main-banner-carousel').owlCarousel({
-//   loop: true,
-//   dots: false,
-//   autoplay:true,
-//   smartSpeed: 1500,
-//   autoplayTimeout:3000,
-//   autoplayHoverPause:true,
-//   responsive: {
-//       0: {
-//           items: 1
-//       }
-//   }
-// });
+
+$(document).ready(function() {
+  $('select').niceSelect();
+});
+$('#main-banner-carousel').owlCarousel({
+  loop: true,
+  dots: false,
+  autoplay:true,
+  smartSpeed: 2000,
+  autoplayTimeout:5000,
+  autoplayHoverPause:true,
+  responsive: {
+      0: {
+          items: 1
+      }
+  }
+});
 /*===========================
 ====== Porfolio Filter ======
 =============================*/
@@ -193,20 +199,4 @@ $('.counter').counterUp({
 
 
 
-$(document).ready(function() {
-  $('select').niceSelect();
-});
-$('#main-banner-carousel').owlCarousel({
-  loop: true,
-  dots: false,
-  autoplay:true,
-  smartSpeed: 1500,
-  autoplayTimeout:100000,
-  autoplayHoverPause:true,
-  responsive: {
-      0: {
-          items: 1
-      }
-  }
-});
 })(jQuery);

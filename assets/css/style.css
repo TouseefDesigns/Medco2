@@ -612,48 +612,6 @@ background-color: white;
 }
 
 
-/* ==========================
-    PARTNET START
-============================*/
-.partner-section {
-    padding: 90px 0px 85px 0px;
-    position: relative;
-  }
-  
-  .partner-section img {
-    height: auto;
-    display: block;
-  }
-  .partner-section .partner-logo .item{
-      position: relative;
-  }
-  .partner-section .partner-logo .item::after {
-    border-right: 2px solid rgb(32 64 102 / 50%);
-    border-radius: 49%;
-    content: "";
-    top: 0;
-    height: 100%;
-    position: absolute;
-    right: -15px;
-}
-  @media (max-width: 767px) {
-    .icon-box-item {
-      margin-top: 50px;
-    }
-  }
-  
-  /* ==========================
-      PARTNET END
-  ============================*/
-
-
-
-
-
-
-
-
-
   /* ==========================
       Service Section
   ============================*/
@@ -753,6 +711,9 @@ background-color: white;
 .services-icon-box:hover .service-icon{
     color: #21cdc0 !important;
 }
+.services-icon-box a{
+    transition: all 1s ease;
+}
 .services-icon-box:hover a{
     color: #213360!important;
     letter-spacing: 1px;
@@ -765,10 +726,7 @@ background-color: white;
     font-size: 12px;
     font-weight: 600;
 }
-  /* ==========================
-      Service Section END
-  ============================*/
-
+  
 /*===============================
 ===== Portfolio Section CSS =====
 =================================*/
@@ -938,9 +896,7 @@ text-decoration: none;
   .item .member__info .member__name a {
     color: #0e204d;
   }
-  .item .member__info .member__name a:hover {
-    color: #21cdc0;
-  }
+  
   .item .member__info .member__job {
     color: #21cdc0;
     margin-bottom: 10px;
@@ -949,9 +905,9 @@ text-decoration: none;
     font-size: 15px;
     margin-bottom: 10px;
   }
-  .team-section .item:hover{
+  /* .team-section .item:hover{
    box-shadow: 0px 30px 20px 12px rgb(9 29 62 / 15%);
-  }
+  } */
   .item .social-icons li {
     opacity: 1;
     transition: all 0.4s ease-in-out;
@@ -1002,9 +958,9 @@ text-decoration: none;
     text-align: center;
     transition: all 0.4s linear;
   }
-  .item .social-icons li a:hover {
+  /* .item .social-icons li a:hover {
     background-color: #0e204d;
-  }
+  } */
   .item .btn__link.btn__secondary {
     padding: 12px 0;
     opacity: 1;
@@ -1022,11 +978,29 @@ text-decoration: none;
     font-size: 12px;
     font-weight: normal;
   }  
-  .item .btn__link.btn__secondary:hover {
+  .team-section-box:hover .btn__link.btn__secondary, .team-section-box:hover .social-icons li a {
     color: #ffffff !important;
     background-color: #0e204d !important;
   }
+  .team-section-box:hover .member__info .member__name a {
+    color: #21cdc0;
+  }
+  .team-section-box:hover .member__info .member__job {
+    color: #0e204d;
+    font-weight: 600;
+
+  }
   
+.team-section-box{
+    overflow: hidden;
+    border-radius: 10px 10px 10px 10px;
+}
+.rounded{
+    transition: all 0.5s ease;
+}
+  .team-section-box:hover .rounded{
+    transform: scale(1.05,1.05);
+  }
 
 
 /*===============================
@@ -1107,6 +1081,50 @@ transform: scale(1.05);
     font-size: 18px!important;
     margin-bottom: 5px;
 }
+
+
+
+
+/* ==========================
+    PARTNET START
+============================*/
+.partner-section {
+    padding: 90px 0px 85px 0px;
+    position: relative;
+  }
+  
+  .partner-section img {
+    height: auto;
+    display: block;
+  }
+  .partner-section .partner-logo .item{
+      position: relative;
+  }
+  .partner-section .partner-logo .partner-right-line::after {
+    border-right: 2px solid rgb(32 64 102 / 50%);
+    border-radius: 49%;
+    content: "";
+    top: 0;
+    height: 100%;
+    position: absolute;
+    right: -15px;
+}
+  @media (max-width: 767px) {
+    .icon-box-item {
+      margin-top: 50px;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
 
 .copyright {
     padding-top: 20px;
