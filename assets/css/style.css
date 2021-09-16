@@ -878,20 +878,22 @@ transform: scale(1,1);
 .team-section{
     background-color: #21cdc0;
 }
-.item .rounded{
-        border-radius: 10px 10px 0 0 !important;
+.item .team-img{
+    overflow: hidden;
+    border-radius: 10px !important;
 }
 .item .member__info {
     padding: 15px 15px;
     background-color: white;
     border-radius: 0 0 10px 10px;
+    margin-top: -15px;
   }
   .item .member__info a {
 text-decoration: none;    
   }  
   .item .member__info .member__name {
     font-size: 21px;
-    margin-bottom: 11px;
+    margin: 11px 0;
   }
   .item .member__info .member__name a {
     color: #0e204d;
@@ -905,9 +907,9 @@ text-decoration: none;
     font-size: 15px;
     margin-bottom: 10px;
   }
-  /* .team-section .item:hover{
-   box-shadow: 0px 30px 20px 12px rgb(9 29 62 / 15%);
-  } */
+  .team-section .item:hover{
+            box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+  }
   .item .social-icons li {
     opacity: 1;
     transition: all 0.4s ease-in-out;
@@ -918,6 +920,10 @@ text-decoration: none;
     line-height: 40px;
     font-size: 16px;
     color: #ffffff;
+  }
+  .item .social-icons li a:hover {
+    color: #ffffff!important;
+    background-color: #21cdc0 !important ;
   }
   .item .social-icons li a.facebook {
     margin: 5px;
@@ -958,6 +964,7 @@ text-decoration: none;
     text-align: center;
     transition: all 0.4s linear;
   }
+  
   /* .item .social-icons li a:hover {
     background-color: #0e204d;
   } */
@@ -966,21 +973,25 @@ text-decoration: none;
     opacity: 1;
     transition: all 0.3s linear;
     font-size: 15px;
-    color: #ffffff !important;
+    color: #ffffff;
     opacity: 1;
     border-radius: 50px;
     padding: 8px;
     /* margin-top: 8px; */
-    background-color: #21cdc0 !important;
+    background-color: #21cdc0;
     /* margin-top: 5px; */
+  }
+  .item .btn__link.btn__secondary:hover {
+    color: #ffffff !important;
+    background-color: #21cdc0 !important;
   }
   .item .btn__link.btn__secondary .team-arrow  {
     font-size: 12px;
     font-weight: normal;
   }  
   .team-section-box:hover .btn__link.btn__secondary, .team-section-box:hover .social-icons li a {
-    color: #ffffff !important;
-    background-color: #0e204d !important;
+    color: #ffffff;
+    background-color: #0e204d ;
   }
   .team-section-box:hover .member__info .member__name a {
     color: #21cdc0;
@@ -1047,6 +1058,143 @@ transform: scale(1.05);
     background-color: #21cdc0 !important;
   }
   
+/*===============================
+======== Blog Section CSS =======
+=================================*/
+  .blog-section{
+    background-color: #21cdc0;
+}
+
+  
+.post-item:hover {
+    box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
+ }
+
+ .post-item:hover .post__img img {
+   -webkit-transform: scale(1.1) rotate(1deg);
+   transform: scale(1.1) rotate(1deg);
+ }
+
+.post-item {
+    background-color: white;
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    transition: all 0.3s linear;
+  }
+  
+  .post-item .post__img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  .post-item .post__img img {
+    transition: all 0.5s ease;
+  }
+
+  .post-item .post__body {
+    position: relative;
+    z-index: 3;
+    padding: 0 30px 30px 37px;
+    margin-top: -15px;
+  }
+  
+  .post-item .post__meta-cat {
+    padding: 4px 13px;
+    display: inline-block;
+    border-radius: 0 10px 0px 10px;
+    background-color: #21cdc0 !important;
+    margin-bottom: 15px;
+    transition: all 0.5s linear;
+  }
+  .post-item .post__meta-cat a {
+    position: relative;
+    color: #ffffff;
+    padding-right: 7px;
+    font-size: 13px;
+    transition: all 0.3s ease;
+  }
+  .post-item .post__meta-cat:hover {
+    background-color: #283b6a !important;
+  } 
+  .post-item .post__meta-cat a:hover {
+    color: #21cdc0;
+  } 
+  .post-item .post__meta-cat a:after {
+    content: ",";
+    position: absolute;
+    top: -1px;
+    right: 1px;
+    color: #ffffff;
+  } 
+  .post-item .post__meta-cat a:last-child {
+    padding-right: 0;
+  }
+  .post-item .post__meta-cat a:last-child:after {
+    display: none;
+  }
+  
+
+  .post-item .post__meta {
+    margin-bottom: 14px;
+  }
+  .post-item .post__meta > * {
+    position: relative;
+    font-size: 13px;
+    color: #435ba1;
+    line-height: 1;
+    margin-right: 15px;
+    padding-right: 15px;
+  }
+  .post-item .post__meta > *:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background-color: #dedfe3;
+  }
+  .post-item .post__meta > *:last-child {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .post-item .post__meta > *:last-child:after {
+    display: none;
+  }
+
+  .post-item .post__title {
+    font-size: 20px;
+    margin-bottom: 28px;
+  }
+  .post-item .post__title a {
+    color: #0e204d;
+    transition: all 0.5s ease;
+  }
+  .post-item .post__title a:hover {
+    color: #21cdc0;
+  }
+  
+  .post-item .btn__link.btn__secondary {
+    transition: all 0.4s linear;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #21cdc0;
+  }
+  .post-item .btn__link.btn__secondary:hover {
+    color: #ffffff !important;
+    background-color: #21cdc0 !important;
+  }
+
+  .post-item:hover .btn__link.btn__secondary {
+    color: #ffffff;
+    background-color: #213360;
+  }
+  
+
 
 /*===============================
 ======== Stat Section CSS =======
