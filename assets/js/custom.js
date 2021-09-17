@@ -75,10 +75,10 @@ $(document).ready(function (){
   $('#testimonial-carousel').owlCarousel({
     loop: true,
     margin: 30,
-    autoplay: false,
+    autoplay:true ,
     smartSpeed: 1500,
     nav: true,
-    dots: true,
+    dots: false,
     autoplayTimeout:5000,
     responsive: {
         0: {

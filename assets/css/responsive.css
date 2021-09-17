@@ -316,6 +316,9 @@ p{
                                 font-size: 17px;
                                 font-weight: 600;
                             }
+                            .testi-box{
+                                flex-direction: column;
+                            }
                             
                             }
                             @media only screen and (max-width: 430px) {

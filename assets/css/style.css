@@ -1221,14 +1221,21 @@ transform: scale(1.05);
     margin: 0 auto;
 }    
 .testi-box{
-    padding: 60px 40px 80px;
+    padding: 50px 30px 30px;
     background-color: #21cdc0;
     border-radius: 10px;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
+    align-items: center;
 }
 .testi-box p{
     font-size: 14px;
+}
+.testi-box .client-h6{
+    color: #213360;
+}
+.testi-box .client-p{
+    font-size: 12px;
 }
 .testi-qoute{
     font-size: 20px;
