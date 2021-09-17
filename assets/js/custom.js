@@ -68,6 +68,37 @@ $(document).ready(function () {
       }
   });
 
+/*===========================
+=== Testimonial Carousel ====
+=============================*/
+$(document).ready(function (){
+  $('#testimonial-carousel').owlCarousel({
+    loop: true,
+    margin: 30,
+    autoplay: false,
+    smartSpeed: 1500,
+    nav: true,
+    dots: true,
+    autoplayTimeout:5000,
+    responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 1
+        },
+        991: {
+            items: 1
+        },
+        1200: {
+            items: 1
+        },
+        1920: {
+            items: 1
+        }
+    }
+});
+  });
 
 
     //======================
