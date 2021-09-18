@@ -390,6 +390,9 @@ background-color: white;
     z-index: 11;
     /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 }
+.navbar-brand{
+    width: 20%;
+}
 .navbar li a{
     padding: 10px 15px;
     font-size: 15px;
@@ -551,6 +554,10 @@ background-color: white;
     background-color: #1d2a4d;
     color: white;
     padding: 62px 0 0;
+}
+.w-80{
+    width: 80% !important;
+    margin-top: 5px;
 }
 .style-line {
     border-top: 3px solid #21cdc0;
