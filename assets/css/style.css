@@ -321,6 +321,11 @@ background-color: white;
     border: 2px solid;
     border-color: transparent transparent transparent rgba(255, 255, 255, 0.15);
 }
+.top-header-searchbar .form-control:focus{
+    border: transparent;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
 .top-header-search-btn{
     color: #ffffff;
     background: transparent;
