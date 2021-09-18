@@ -1506,7 +1506,44 @@ transform: scale(1.05);
     font-weight: bold;
     line-height: 2;
 }
+.btn {
+    position: relative;
+  }
+/* .hover-slide-right.btn span {         
+    position: relative;
+    font-weight: bold;
+    letter-spacing: 2px;
+    top: 0; left: 0;
+    width: 100%;
+    padding: 15px 20px;
+    transition: 0.3s;
+  } */
 
+.main-banner-img1 .main-banner-txt .main-textbox .btn__link.btn__secondary {
+    transition: all 0.4s linear;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: 600;
+    /* height: 70px; */
+    line-height: 40px;
+    background-color: #213360;
+    border: 0;
+}
+.main-banner-img1 .main-banner-txt .main-textbox .btn__link.btn__secondary::before {
+    transition: all 0.3s linear;
+    background-color: #21cdc0;
+    border-radius: 50px;
+}
+.btn.hover-slide-right::before {
+    top: 0; bottom: 0; left: 0; 
+    height: 100%; width: 0%;
+    border-radius: 50px;
+  }
+  .btn.hover-slide-right:hover::before {
+    width: 100%;
+    border-radius: 50px;
+  }
 
 
 /* ===============================================
