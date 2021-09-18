@@ -916,7 +916,7 @@
       <div class="row">
         <div class="col-12">
           <div class="contact-panel d-flex flex-wrap">
-            <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+            <form class="contact-panel__form needs-validation" method="post" action="assets/php/contact.php" id="contactForm" novalidate>
               <div class="row">
                 <div class="col-12 mb-3">
                   <div class="section-title">
@@ -935,6 +935,9 @@
                     <i class="form-group-icon fas fa-user"></i>
                     <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
                       required>
+                      <div class="invalid-feedback">
+                        Please provide your Name
+                      </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -942,6 +945,9 @@
                     <i class="fas fa-envelope form-group-icon"></i>
                     <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email"
                       required>
+                      <div class="invalid-feedback">
+                        Please provide your Name
+                      </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -949,6 +955,9 @@
                     <i class="fas fa-phone-alt form-group-icon"></i>
                     <input type="text" class="form-control" placeholder="Phone" id="contact-Phone" name="contact-phone"
                       required>
+                      <div class="invalid-feedback">
+                        Please provide your Name
+                      </div>
                   </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
@@ -956,6 +965,9 @@
                     <i class="fas fa-clipboard form-group-icon"></i>
                     <input type="text" class="form-control" placeholder="Subject" id="contact-subject"
                       name="subject" required>
+                      <div class="invalid-feedback">
+                        Please provide your Name
+                      </div>
                   </div>
 
                 </div>
@@ -964,6 +976,9 @@
                     <i class="fas fa-exclamation-circle form-group-icon"></i>
                     <textarea class="form-control" placeholder="Message" id="contact-message"
                       name="contact-message"></textarea>
+                      <div class="invalid-feedback">
+                        Please provide your Name
+                      </div>
                   </div>
                   
                   <button type="submit" class="btn btn__secondary btn__link btn__rounded btn__block btn__xhight mt-10">
