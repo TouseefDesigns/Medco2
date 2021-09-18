@@ -1247,6 +1247,25 @@ transform: scale(1.05);
 /*===============================
 ======== Stat Section CSS =======
 =================================*/
+
+/* Appointment page CSS */
+#appointment-stat{
+    background-image: url(../images/appointment-img.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #21cdc0;
+    background-attachment: fixed;
+}
+.page-title-heading h2 {
+    font-weight: 600;
+    text-transform: capitalize;
+     font-size: 40px;
+    /* line-height: 46px;
+    margin-bottom: 5px; */
+}
+
 #stat{
     background-image: url(../images/slider-2.jpg);
     height: 50%; 
@@ -1454,3 +1473,73 @@ transform: scale(1.05);
     color: #fff;
     background-color:  #204066;
   }
+
+
+
+
+
+  .form-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+.form-group-icon {
+    position: absolute;
+    top: 23px;
+    left: 23px;
+    z-index: 2;
+    color: #d7d8da;
+    pointer-events: none;
+}
+.form-group-icon + .form-control, .form-group-icon + select + .form-control {
+    padding-left: 45px;
+}
+.form-control {
+    font-size: 14px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 55px;
+    background-color: #ffffff;
+    border: 2px solid #e6e8eb;
+    font-style: normal !important;
+}
+.form-group .form-control::placeholder{
+    color: #204066;
+}
+.form-control:focus {
+    border: 2px solid #21cdc0;
+    background-color: #ffffff;
+    color: black;
+}
+textarea.form-control {
+    min-height: 120px;
+    padding-top: 16px;
+    border-radius: 20px;
+
+}
+.btn__block {
+    width: 100%;
+}
+.contact-panel .btn__link.btn__secondary {
+    transition: all 0.4s linear;
+    font-size: 15px;
+    color: #ffffff;
+    border-radius: 50px;
+    font-weight: 600;
+    height: 70px;
+    line-height: 50px;
+    background-color: #213360;
+}
+.contact-panel .btn__link.btn__secondary:hover {
+    background-color: #21cdc0;
+}
+  .form-control {
+    font-size: 14px;
+    height: 60px;
+    padding: 0 20px;
+    border-radius: 55px;
+    background-color: #ffffff;
+    border: 2px solid #e6e8eb;
+}
+
+
+  

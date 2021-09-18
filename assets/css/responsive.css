@@ -408,6 +408,12 @@ p{
         font-size: 25px;
     }
 } */
+@media only screen and (max-width: 2865px) and (min-width: 1544px) {
+    .main-textbox {
+        margin-bottom: 400px;
+    }
+   
+}
 @media only screen and (max-width:1024px){
     .main-banner-txt{
         right: 100px;

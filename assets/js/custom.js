@@ -142,7 +142,7 @@ $(document).ready(function() {
 $('#main-banner-carousel').owlCarousel({
   loop: true,
   dots: false,
-  autoplay:true,
+  autoplay:false,
   smartSpeed: 2000,
   autoplayTimeout:5000,
   autoplayHoverPause:true,
