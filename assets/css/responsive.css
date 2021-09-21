@@ -455,6 +455,10 @@ p{
         font-size: 25px!important;
         margin-bottom: 5px;
     }
+    .heading__title {
+        font-size: 28px;
+        margin-top: 20px;
+    }
 }
 @media only screen and (max-width:500px){
     .main-banner-txt h2{
@@ -463,5 +467,97 @@ p{
     }
     .main-banner-txt p{
         font-size: 11px;
+    }
+    .appointment-section .btn__white {
+        font-size: 12px;
+        font-weight: 600;
+        min-width: 120px;
+        height: 50px;
+    }
+    .video__btn .video__player {
+        top: 5px;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+       
+    }
+    .section-title h2.title {
+        font-weight: 600;
+        font-size: 25px;
+        color: #0e204d;
+        line-height: 40px;
+    }
+    p{
+        font-size: 11px;
+    }
+    .intro-list-text {
+        font-size: 11px;
+    }
+    .service-text p {
+        font-size: 11px;
+        line-height: 27px;
+    }
+    .btn_services{
+        font-size: 12px;
+    }
+    .mt-5{
+margin-top: 1rem !important;
+    }
+    .research-title {
+        font-weight: 600;
+        font-size: 25px;
+        color: #21cdc0;
+        line-height: 40px;
+    }
+    .section-title h5 {
+        font-size: 12px;
+        margin-top: 0px;
+    }
+    .item .member__info .member__desc {
+        font-size: 12px;
+        margin-bottom: 10px;
+        line-height: 25px;
+    }
+    .fa-4x {
+        font-size: 3em;
+    }
+    .testi-box p {
+        font-size: 11px;
+        line-height: 23px;
+    }
+    .contact-panel__title{
+        font-size: 15px;
+    }
+    .contact-panel__desc {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    .heading__title {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+    .heading__desc {
+        font-size: 13px;
+        line-height: 2.3;
+        /* margin-bottom: 0; */
+    }
+    .video__btn .video__btn-title {
+        font-size: 13px;
+    margin-left: 0;
+    }
+    .contact-layout3 .text__block .text__block-desc {
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 2;
+    }
+    .signature{
+        font-size: 12px;
+    }
+    .time_list_2 li {
+        font-size: 11px;
+        display: flex;
+    }
+    h3{
+        font-size: 1.3rem !important
     }
 }

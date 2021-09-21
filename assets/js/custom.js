@@ -129,6 +129,33 @@ $(document).ready(function (){
       }
   });
 
+    //======================
+    // Appointment slider carousel
+    //======================
+
+
+    $(".appointment-logo").owlCarousel({
+      loop: true,
+      margin: 30,
+      smartSpeed: 1500,
+      autoplay: true,
+      nav: false,
+      dots: false,
+      responsive: {
+          0: {
+              items: 2
+          },
+          600: {
+              items: 3
+          },
+          768: {
+              items: 3
+          },
+          1000: {
+              items: 3
+          }
+      }
+  });
 
 
 
@@ -183,11 +210,11 @@ $('#main-banner-carousel').owlCarousel({
 /*===========================
 ======== PopUp Video ========
 =============================*/
-// $(document).ready(function() {
-//   $('.venobox').venobox({
-//     'share': false
-//   });
-//   });
+$(document).ready(function() {
+  $('.venobox').venobox({
+    'share': false
+  });
+  });
 /*===========================
 === Testimonial Carousel ====
 =============================*/

@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MEDCO.</title>
-   <!-- Favicon Files -->
+  <!-- Favicon Files -->
   <link rel="apple-touch-icon" sizes="120x120" href="assets/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
@@ -86,7 +86,8 @@
                 </div>
               </div>
               <div class="top-header-searchbar mt-18 d-flex">
-                <input type="search" class="form-control w-75" placeholder="Search..." name="search" id="search" autocomplete="off">
+                <input type="search" class="form-control w-75" placeholder="Search..." name="search" id="search"
+                  autocomplete="off">
                 <button type="search" class="top-header-search-btn"><i class="fas fa-search "></i></button>
               </div>
             </div>
@@ -141,11 +142,11 @@
           <h2>Providing Best Medical Care</h2>
           <p>The health and well-being of our patients and their health care team will
             always be our priority, so we follow the best practices for cleanliness.</p>
-            <!-- <button type="submit" class="btn hover-slide-right btn__secondary btn__link btn__rounded btn__xhight mt-10">
+          <!-- <button type="submit" class="btn hover-slide-right btn__secondary btn__link btn__rounded btn__xhight mt-10">
               <i class="fas fa-calendar-week mr-1 position-relative"></i>
               <span>Appointment</span></i>
             </button> -->
-            <div class="btn_wrpper">
+          <div class="btn_wrpper">
             <a href="#appointment" class="btn btn_primary">
               <i class="fas fa-calendar-week mr-1"></i>
               <span>Appointment</span>
@@ -932,6 +933,141 @@
     </div>
   </section>
   <!-- Client Section End -->
+  <!-- Appointment Section -->
+
+  <section id="appointment" class="contact-layout3 appointment-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-7">
+          <div class="contact-panel mb-50">
+            <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+              <div class="row">
+                <div class="col-sm-12">
+                  <h4 class="contact-panel__title">Book An Appointment</h4>
+                  <p class="contact-panel__desc mb-30 text-justify">Please feel welcome to contact our friendly reception staff
+                    with any general or medical enquiry. Our doctors will receive or return any urgent calls.
+                  </p>
+                </div>
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <i class="fas fa-puzzle-piece form-group-icon"></i>
+                    <div class="nice-select form-control" tabindex="0"><span class="current">Choose Clinic</span>
+                      <ul class="list">
+                        <li data-value="0" class="option selected">Choose Clinic</li>
+                        <li data-value="1" class="option">Pathology Clinic</li>
+                        <li data-value="2" class="option">Pathology Clinic</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div><!-- /.col-lg-6 -->
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <i class="fas fa-user form-group-icon"></i>
+                    <div class="nice-select form-control" tabindex="0"><span class="current">Choose Doctor</span>
+                      <ul class="list">
+                        <li data-value="0" class="option selected">Choose Doctor</li>
+                        <li data-value="1" class="option">Ahmed Abdallah</li>
+                        <li data-value="2" class="option">Mahmoud Begha</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div><!-- /.col-lg-6 -->
+                <div class="col-sm-12 col-md-12 col-lg-12">
+                  <div class="form-group">
+                    <i class="fas fa-user-edit form-group-icon"></i>
+                    <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
+                      required>
+                  </div>
+                </div><!-- /.col-lg-6 -->
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <i class="fas fa-envelope form-group-icon"></i>
+                    <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email"
+                      required>
+                  </div>
+                </div><!-- /.col-lg-6 -->
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group">
+                    <i class="fas fa-phone-alt form-group-icon"></i>
+                    <input type="text" class="form-control" placeholder="Phone" id="contact-Phone" name="contact-phone"
+                      required>
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group form-group-date">
+                    <input type="date" class="form-control" id="contact-date" name="contact-date" required>
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-sm-6 col-md-6 col-lg-6">
+                  <div class="form-group form-group-date">
+                    <input type="time" class="form-control" id="contact-time" name="contact-time" required>
+                  </div>
+                </div><!-- /.col-lg-4 -->
+                <button type="submit"
+                  class="btn hover-slide-right btn__secondary btn__link btn__rounded btn__block btn__xhight mt-10">
+                  <span class="position-relative">Book Appointment</span> <i
+                    class="position-relative team-arrow fas fa-arrow-right ml-1"></i>
+                </button><!-- /.col-lg-12 -->
+              </div><!-- /.row -->
+            </form>
+          </div>
+        </div><!-- /.col-lg-7 -->
+        <div class="col-sm-12 col-md-12 col-lg-5">
+          <div class="heading heading-light mb-30">
+            <h3 class="heading__title mb-30 text-justify">Helping Patients From Around the Globe!!</h3>
+            <p class="heading__desc">Our staff strives to make each interaction with patients clear, concise, and
+              inviting. Support the important work of Medicsh Hospital by making a much-needed donation today.
+            </p>
+          </div>
+          <div class="d-flex align-items-center">
+            <a href="contact.html" target="_blank" class="btn btn__white btn__rounded mr-30">
+              <i class="fas fa-heart mr-1"></i> <span>Make A Gift</span>
+            </a>
+            <a class="video__btn video__btn-white popup-video venobox" data-vbtype="video"
+              href="https://www.youtube.com/watch?v=X00fSgxgO4s">
+              <div class="video__player">
+                <i class="fa fa-play"></i>
+              </div>
+              <span class="video__btn-title text-white">Play Video</span>
+            </a>
+          </div>
+          <div class="text__block">
+            <p class="text__block-desc text-white mb-3 text-justify">We provide a comprehensive range of plans for
+              families and individuals at every stage of life, with annual limits ranging from £1.5m to unlimited.</p>
+            <div class="sinature text-white mb-3">
+              <span class="font-weight-bold">Martin Qube</span><span>, Medcity Manager</span>
+            </div>
+          </div><!-- /.text__block -->
+          <div class="mt-5 owl-carousel appointment-logo owl-theme owl-loaded">
+            <div class="item w-100">
+              <img src="assets/images/clients/1.png" alt="">
+            </div>
+            <div class="item w-100">
+              <img src="assets/images/clients/2.png" alt="">
+            </div>
+            <div class="item w-100">
+              <img src="assets/images/clients/3.png" alt="">
+            </div>
+            <div class="item w-100">
+              <img src="assets/images/clients/4.png" alt="">
+            </div>
+            <div class="item w-100">
+              <img src="assets/images/clients/5.png" alt="">
+            </div>
+            <div class="item w-100">
+              <img src="assets/images/clients/6.png" alt="">
+            </div>
+            <div class="item w-100">
+              <img src="assets/images/clients/7.png" alt="">
+            </div>
+          </div>
+        </div><!-- /.col-lg-5 -->
+      </div><!-- /.row -->
+    </div><!-- /.container -->
+    <!-- </section>/.contact layout 3 -->
+
+  </section>
+  <!-- Appointment Section End -->
   <!-- PARTNER SECTION START -->
   <section class="partner-section">
     <div class="container">
