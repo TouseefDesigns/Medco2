@@ -1,6 +1,7 @@
 !(function($){
   "use strict";
 
+
 /*===========================
 ====== Sticky Navbar =======
 =============================*/
@@ -13,6 +14,7 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
 
 
 /*===========================

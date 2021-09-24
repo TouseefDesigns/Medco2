@@ -172,11 +172,11 @@ float: left;
     outline: 0!important;
     outline-offset: 0;
   }
-  ::before,
+  /* ::before,
   ::after {
     position: absolute;
     content: "";
-  }
+  } */
 
 
 
@@ -1692,15 +1692,21 @@ text-decoration: none;
     transition: all 0.3s linear;
     background-color: #21cdc0;
     border-radius: 50px;
+    position: absolute;
+    content: "";
 }
 .btn.hover-slide-right::before {
     top: 0; bottom: 0; left: 0; 
     height: 100%; width: 0%;
     border-radius: 50px;
+    position: absolute;
+    content: "";
   }
   .btn.hover-slide-right:hover::before {
     width: 100%;
     border-radius: 50px;
+    position: absolute;
+    content: "";
   }
 
 
@@ -1798,15 +1804,21 @@ textarea.form-control {
 .contact-panel .btn__link.btn__secondary::before {
     transition: all 0.3s linear;
     background-color: #21cdc0;
+    position: absolute;
+    content: "";
 }
 .btn.hover-slide-right::before {
     top: 0; bottom: 0; left: 0; 
     height: 100%; width: 0%;
     border-radius: 50px;
+    position: absolute;
+    content: "";
   }
   .btn.hover-slide-right:hover::before {
     width: 100%;
     border-radius: 50px;
+    position: absolute;
+    content: "";
   }
 /* .contact-panel .btn__link.btn__secondary:hover {
     background-color: #21cdc0;
@@ -1826,3 +1838,57 @@ textarea.form-control {
 } */
 
   
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin-bottom: 0;
+    margin-top: 10px;
+    list-style: none;
+    background-color: transparent;
+    border-radius: none;
+    justify-content: center;
+    align-items: center;
+
+}
+.breadcrumb-item + .breadcrumb-item::before {
+    float: left;
+    padding-right: 0.5rem;
+    color: #ffffff;
+    content: ">";
+}
+.breadcrumb-item.active {
+    color: #21cdc0;
+}
+.breadcrumb-item-a{
+    color: #ffffff;
+}
+.breadcrumb-item-a:hover{
+    color: #21cdc0;
+}
+
+
+
+.pagination li {
+    margin-right: 10px;
+}
+.pagination li a:hover, .pagination li a.current {
+    color: #ffffff;
+    border-color: #ffffff00;
+    background-color: #213360;
+}
+.pagination li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    display: block;
+    width: 50px;
+    height: 50px;
+    line-height: 46px;
+    text-align: center;
+    border-radius: 50%;
+    color: #213360;
+    border: 2px solid #e6e8eb;
+    background-color: #ffffff;
+    transition: all 0.3s linear;
+}
