@@ -1959,11 +1959,14 @@ textarea.form-control {
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
    margin-top: -35px;
-   /* transition: all 0.3s linear; */
   }
- /* .read_more_img img:hover {
-    transform: scale(1.02);
-  } */
+
+  @media (max-width: 767px) {
+    .read_more_area {
+      margin-bottom: 50px;
+    }
+  }
+
   .read_more_area .post__meta > * {
     position: relative;
     font-size: 13px;
@@ -2071,7 +2074,7 @@ textarea.form-control {
     line-height: 1;
     text-transform: capitalize;
     padding: 6px 10px;
-    margin: 0 10px 10px 0;
+    margin: 10px 10px 10px 10px;
     border-radius: 50px;
     border: 1px solid #e6e8eb;
     color: #21cdc0;
@@ -2117,6 +2120,146 @@ textarea.form-control {
 .comments-list .comment__item .comment__content {
     padding-left: 90px;
 }
+.comments-list .comment__item .comment__content .comment__author {
+    font-size: 15px;
+    margin-bottom: 11px;
+}
+.comments-list .comment__item .comment__content .comment__date {
+    font-size: 12px;
+    line-height: 1;
+    display: block;
+    margin-bottom: 10px;
+}
+/* .comments-list .comment__item .comment__content .comment__desc {
+    font-size: 15px;
+    margin-bottom: 6px;
+} */
+.comments-list .comment__item .comment__content .comment__reply {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1;
+    color: #21cdc0;
+}
+.comments-list .comment__item .comment__content .comment__reply:hover {
+    color: #213360;
+}
+.comments-list .comment__item .nested__comment {
+    border-top: 1px solid #eaeaea;
+    padding: 30px 0 0 0;
+    margin: 30px 0 0 90px;
+}
+.comment_form h4{
+    color: #0e204d !important;
+    font-size: 20px;
+  }
+.comment_form h4{
+    color: #0e204d !important;
+    font-size: 20px;
+  }
+  .btn-common {
+    background-color: #21cdc0;
+    position: relative;
+    z-index: 1;
+    border-radius: 50px;
+    color: var(--white) !important;
+    transition: 0.4s all ease;
+    padding: 10px;
+}
+.btn-common:hover {
+    background-color: #0e204d;
+}
+.widget {
+    position: relative;
+    padding: 40px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    background-color: #def8f6;
+}
+.widget .widget__title {
+    font-size: 19px;
+    margin-bottom: 23px;
+    color: #0e204d;
+}
+.widget-search .widget__form-search {
+    position: relative;
+}
+.widget-search .widget__form-search .form-control {
+    height: 55px;
+}
+.widget-search .widget__form-search .btn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    width: auto;
+    color: #21cdc0;
+    padding: 0;
+    min-width: 0;
+    height: 55px;
+    line-height: 55px;
+}
+.widget:after {
+    content: '';
+    position: absolute;
+    top: 40px;
+    bottom: 40px;
+    left: 0;
+    width: 3px;
+    background-color: #21cdc0;
+}
+.widget-categories ul li {
+    margin-bottom: 11px;
+}
+.widget-categories ul li a {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: #213360;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: all 0.3s linear;
+}
+.widget-categories ul li a:hover {
+    color: #21cdc0;
+}
+.widget-categories ul li a .cat-count {
+    font-size: 13px;
+    font-weight: 600;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 15px;
+    border: 1px solid #e6e8eb;
+    color: #21cdc0;
+    background-color: #ffffff;
+}
+.widget-post__title {
+    font-size: 15px;
+    margin-bottom: 0;
+    
+}
+.widget-post__title a{
+    color: #213360;
+    transition: all 0.4s ease;
+}
+.widget-post__title a:hover{
+    color: #21cdc0;
+}
+.widget-tags ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
 
 
 
@@ -2196,15 +2339,12 @@ textarea.form-control {
    font-size: 80%;
   }
   .comment_form .form-control{
-   border-radius: 0%;
    margin-top: 2%;
   }
   .comment_form .high{
    height: 55px;
   }
-  .comment_form h4{
-   color: var(--red-color);
-  }
+  
   .search_box .search{
    padding: 5% 5%;
    border-radius: 5px;
