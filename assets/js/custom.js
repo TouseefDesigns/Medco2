@@ -79,7 +79,7 @@ $(document).ready(function (){
     margin: 30,
     autoplay:true ,
     smartSpeed: 1500,
-    nav: true,
+    nav: false,
     dots: false,
     autoplayTimeout:5000,
     responsive: {

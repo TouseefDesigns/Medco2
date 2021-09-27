@@ -44,7 +44,7 @@
                     <div><i class="fas fa-phone-volume  phone_style"></i></div>
                     <div class="phone_number">
                       <a href="tel:+201061245741">
-                        <i class="fas fa-phone-alt mr-2"></i><span>+2 01061245741</span>
+                        <span>+2 01061245741</span>
                       </a>
                     </div>
                     <div class="text-style text-muted">
@@ -127,8 +127,19 @@
               <li class="nav-item">
                 <a class="nav-link px-3" href="#department">Departments</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link px-3" href="#blog">Blog</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  Blog
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="blog-grid.html">Blog Grid</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="blog-detail.html">Blog Details</a>
+                </div>
               </li>
             </ul>
           </div>
@@ -146,10 +157,6 @@
           <h2>Providing Best Medical Care</h2>
           <p>The health and well-being of our patients and their health care team will
             always be our priority, so we follow the best practices for cleanliness.</p>
-          <!-- <button type="submit" class="btn hover-slide-right btn__secondary btn__link btn__rounded btn__xhight mt-10">
-              <i class="fas fa-calendar-week mr-1 position-relative"></i>
-              <span>Appointment</span></i>
-            </button> -->
           <div class="btn_wrpper">
             <a href="#appointment" class="btn btn_primary">
               <i class="fas fa-calendar-week mr-1"></i>
@@ -181,25 +188,24 @@
   <section class="contact-info">
     <div class="container">
       <div class="row no-gutters">
-        <div class="col-sm-12 col-md-4">
+        <div class="col-sm-12 col-md-6">
           <div class="contact-box contact-box-1 d-flex">
             <div class="contact_icon">
-              <i class="fas fa-phone-volume"></i>
+              <i class="far fa-calendar-alt mr-2"></i>
             </div>
             <div class="contact_content">
-              <h2 class="contact_title">Emergency Cases</h2>
-              <p class="contact_desc  text-justify">Please feel free to contact our friendly reception staff with any
-                general or
-                medical enquiry.</p>
-              <div class="phone_number-2">
-                <a href="tel:+201061245741">
-                  <i class="contact-info-phone-icon fas fa-phone-alt mr-2"></i><span>01061245741</span>
-                </a>
+              <h2 class="contact_title">Doctors Timetable</h2>
+              <p class="contact_desc  text-justify">Qualified doctors available six days a week, view our timetable to
+                make an appointment.</p>
+              <div class="contact-content-btn">
+                <button type="button" class="btn btn_primary_2"><span>View Timetable</span><i
+                    class="fas fa-arrow-right ml-1"></i></button>
               </div>
+              </a>
             </div>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4">
+        <!-- <div class="col-sm-12 col-md-6">
           <div class="contact-box contact-box-2 d-flex">
             <div class="contact_icon">
               <i class="far fa-calendar-alt mr-2"></i>
@@ -216,8 +222,8 @@
               </a>
             </div>
           </div>
-        </div>
-        <div class="col-sm-12 col-md-4">
+        </div> -->
+        <div class="col-sm-12 col-md-6">
           <div class="contact-box contact-box-3 d-flex">
             <div class="contact_icon">
               <i class="fas fa-hand-holding-heart mr-2"></i>
@@ -331,7 +337,7 @@
   <section id="services" class="service-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 col-md-12">
+        <div class="col-lg-9 col-md-12 mb-3">
           <div class="section-title">
             <div class="title-header">
               <h5 class="service-text">WE OFFER SERVICES</h5>
@@ -343,13 +349,13 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-12">
-          <a href="#" class="btn btn_services mt-5">
+        <div class="col-lg-3 col-md-12 service-btn-style mb-3">
+          <a href="#" class="btn btn_services">
             <span>More Services</span>
           </a>
         </div>
       </div>
-      <div class="row mt-5 no-gutters">
+      <div class="row no-gutters">
         <div class="col-lg-3 col-md-6 col-sm-6">
           <div class="services-icon-box style1">
             <div class="services-content">
@@ -424,7 +430,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="section-title">
+          <div class="section-title mb-3">
             <div class="title-header">
               <h5 class="service-text">Our Researches</h5>
               <h2 class="research-title mb-2">Special High-quality Researches</h2>
@@ -434,9 +440,9 @@
                 care, encompassing outpatients services, is neurology, laboratory, imaging diagnostics and more.</p>
             </div>
           </div>
-          <div class="d-flex flex-wrap mt-4">
+          <div class="d-flex flex-wrap">
             <div class="col-lg-3 col-md-12 col-12">
-              <div class="portfolio-menu mt-4">
+              <div class="portfolio-menu ">
                 <div class="btn_wrapper"><button class="btn btn-default filter-button d-block d-block active"
                     data-filter="all">All</button></div>
                 <div class="btn_wrapper"> <button class="btn btn-default filter-button d-block"
@@ -457,7 +463,7 @@
               </div>
             </div>
             <div class="gallery_product col-lg-3 col-md-4 col-12 filter center marketing branding marketing financing">
-              <div class="img position-relative text-center my-4">
+              <div class="img position-relative text-center">
                 <img src="assets/images/portfolio-1.jpg" alt="img" class="rounded img-fluid">
                 <div class="portfolio-overlay">
                   <div class="center-txt">
@@ -468,7 +474,7 @@
               </div>
             </div>
             <div class="gallery_product col-lg-3 col-md-4 col-12 filter center marketing promotion">
-              <div class="img position-relative text-center  my-4">
+              <div class="img position-relative text-center">
                 <img src="assets/images/portfolio-1.jpg" alt="img" class="rounded img-fluid">
                 <div class="portfolio-overlay">
                   <div class="center-txt">
@@ -479,7 +485,7 @@
               </div>
             </div>
             <div class="gallery_product col-lg-3 col-md-4 col-12 filter center branding  promotion">
-              <div class="img position-relative text-center  my-4">
+              <div class="img position-relative text-center">
                 <img src="assets/images/portfolio-1.jpg" alt="img" class="rounded img-fluid">
                 <div class="portfolio-overlay">
                   <div class="center-txt">
@@ -501,7 +507,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="section-title">
+          <div class="section-title mb-3">
             <div class="title-header">
               <h5 class="service-text">Meet Our Experience Team</h5>
               <h2 class="title mb-2">Meet Our Dedicated Doctors Team</h2>
@@ -511,7 +517,7 @@
                 care, encompassing outpatients services, is neurology, laboratory, imaging diagnostics and more.</p>
             </div>
           </div>
-          <div class="row mt-3">
+          <div class="row">
             <div class="col-12">
               <div class="owl-carousel team-carousel owl-theme owl-loaded">
                 <div class="item team-section-box">
@@ -521,9 +527,8 @@
                   <div class="member__info">
                     <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
                     <p class="member__job">Cardiology Specialist</p>
-                    <p class="member__desc text-justify">Muldoone obtained his undergraduate degree in Engineering at
-                      Tulane
-                      University prior to attending St George's University School of Medicine</p>
+                    <p class="member__desc text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                      perspiciatis fugiat</p>
                     <div class="d-flex flex-wrap justify-content-between align-items-center">
                       <a href="#" class="btn btn__secondary btn__link btn__rounded">
                         <span>Read More</span>
@@ -544,9 +549,8 @@
                   <div class="member__info">
                     <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
                     <p class="member__job">Cardiology Specialist</p>
-                    <p class="member__desc text-justify">Muldoone obtained his undergraduate degree in Engineering at
-                      Tulane
-                      University prior to attending St George's University School of Medicine</p>
+                    <p class="member__desc text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                      perspiciatis fugiat</p>
                     <div class="d-flex flex-wrap justify-content-between align-items-center">
                       <a href="#" class="btn btn__secondary btn__link btn__rounded">
                         <span>Read More</span>
@@ -567,10 +571,8 @@
                   <div class="member__info">
                     <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
                     <p class="member__job">Cardiology Specialist</p>
-                    <p class="member__desc text-justify">Muldoone obtained his undergraduate degree in Engineering at
-                      Tulane
-                      University prior to attending St George's University School of Medicine</p>
-                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <p class="member__desc text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                      perspiciatis fugiat</p> <div class="d-flex flex-wrap justify-content-between align-items-center">
                       <a href="#" class="btn btn__secondary btn__link btn__rounded">
                         <span>Read More</span>
                         <i class="team-arrow fas fa-arrow-right ml-1"></i>
@@ -590,10 +592,8 @@
                   <div class="member__info">
                     <h5 class="member__name"><a href="doctors-single-doctor1.html">Mike Dooley</a></h5>
                     <p class="member__job">Cardiology Specialist</p>
-                    <p class="member__desc text-justify">Muldoone obtained his undergraduate degree in Engineering at
-                      Tulane
-                      University prior to attending St George's University School of Medicine</p>
-                    <div class="d-flex flex-wrap justify-content-between align-items-center">
+                    <p class="member__desc text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
+                      perspiciatis fugiat</p> <div class="d-flex flex-wrap justify-content-between align-items-center">
                       <a href="#" class="btn btn__secondary btn__link btn__rounded">
                         <span>Read More</span>
                         <i class="team-arrow fas fa-arrow-right ml-1"></i>
@@ -767,7 +767,7 @@
   <section id="blog" class="blog-section">
     <div class="container">
       <div class="row">
-        <div class="col-lg-9 col-md-12 mb-5">
+        <div class="col-lg-9 col-md-12 mb-3">
           <div class="section-title">
             <div class="title-header">
               <h5 class="service-text">Our Blogs</h5>
@@ -779,11 +779,16 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-md-12 mb-3">
-          <a href="blog-grid.html" target="_blank" class="btn btn_services mt-5">
+        <div class="col-lg-3 col-md-12 service-btn-style mb-3">
+          <a href="blog-grid.html" target="_blank" class="btn btn_services">
             <span>Read More</span>
           </a>
         </div>
+        <!-- <div class="col-lg-3 col-md-12 mb-3">
+          <a href="blog-grid.html" target="_blank" class="btn btn_services mt-5">
+            <span>Read More</span>
+          </a>
+        </div> -->
         <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="post-item">
             <div class="post__img">
@@ -797,10 +802,12 @@
               </div>
               <div class="post__meta d-flex text-decoration-none">
                 <span class="post__meta-date"><i class="fas fa-calendar-week mr-2"></i>Jan 30, 2022</span>
-                <a class="post__meta-author text-decoration-none" href="blog-detail.html" target="_blank"><i class="fas fa-user-edit mr-2"></i>John
+                <a class="post__meta-author text-decoration-none" href="blog-detail.html" target="_blank"><i
+                    class="fas fa-user-edit mr-2"></i>John
                   Ezak</a>
               </div>
-              <h4 class="post__title"><a class="text-decoration-none" href="blog-detail.html" target="_blank">6 Tips To Protect Your Mental Health When
+              <h4 class="post__title"><a class="text-decoration-none" href="blog-detail.html" target="_blank">6 Tips To
+                  Protect Your Mental Health When
                   Sick </a>
               </h4>
               <p class="post__desc">It’s normal to feel anxiety any time you’re diagnosed with a
@@ -825,10 +832,12 @@
               </div>
               <div class="post__meta d-flex text-decoration-none">
                 <span class="post__meta-date"><i class="fas fa-calendar-week mr-2"></i>Jan 30, 2022</span>
-                <a class="post__meta-author text-decoration-none" href="blog-detail.html" target="_blank"><i class="fas fa-user-edit mr-2"></i>John
+                <a class="post__meta-author text-decoration-none" href="blog-detail.html" target="_blank"><i
+                    class="fas fa-user-edit mr-2"></i>John
                   Ezak</a>
               </div>
-              <h4 class="post__title"><a class="text-decoration-none" href="blog-detail.html" target="_blank">Unsure About Wearing A Face Mask?</a>
+              <h4 class="post__title"><a class="text-decoration-none" href="blog-detail.html" target="_blank">Unsure
+                  About Wearing A Face Mask?</a>
               </h4>
               <p class="post__desc">It’s normal to feel anxiety any time you’re diagnosed with a
                 condition if you test positive for COVID-19...</p>
@@ -854,10 +863,12 @@
               </div>
               <div class="post__meta d-flex text-decoration-none">
                 <span class="post__meta-date"><i class="fas fa-calendar-week mr-2"></i>Jan 30, 2022</span>
-                <a class="post__meta-author text-decoration-none" href="blog-detail.html" target="_blank"><i class="fas fa-user-edit mr-2"></i>John
+                <a class="post__meta-author text-decoration-none" href="blog-detail.html" target="_blank"><i
+                    class="fas fa-user-edit mr-2"></i>John
                   Ezak</a>
               </div>
-              <h4 class="post__title"><a class="text-decoration-none" href="blog-detail.html" target="_blank">Tips For Eating Healthy When You’re at
+              <h4 class="post__title"><a class="text-decoration-none" href="blog-detail.html" target="_blank">Tips For
+                  Eating Healthy When You’re at
                   Home</a></h4>
               <p class="post__desc">It’s normal to feel anxiety any time you’re diagnosed with a
                 condition if you test positive for COVID-19...</p>
@@ -877,7 +888,7 @@
   <section id="client" class="testi-overlay position-relative client-section">
     <div class="container">
       <div class="row">
-        <div class="col-12 mb-4">
+        <div class="col-12 mb-3">
           <div class="section-title">
             <div class="title-header">
               <h5 class="service-text">Our Clients</h5>
@@ -949,8 +960,8 @@
     </div>
   </section>
   <!-- Client Section End -->
-  <!-- Appointment Section -->
 
+  <!-- Appointment Section -->
   <section id="appointment" class="contact-layout3 appointment-section">
     <div class="container">
       <div class="row">
@@ -976,7 +987,7 @@
                       </ul>
                     </div>
                   </div>
-                </div><!-- /.col-lg-6 -->
+                </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
                     <i class="fas fa-user form-group-icon"></i>
@@ -988,47 +999,47 @@
                       </ul>
                     </div>
                   </div>
-                </div><!-- /.col-lg-6 -->
+                </div>
                 <div class="col-sm-12 col-md-12 col-lg-12">
                   <div class="form-group">
                     <i class="fas fa-user-edit form-group-icon"></i>
                     <input type="text" class="form-control" placeholder="Name" id="contact-name" name="contact-name"
                       required>
                   </div>
-                </div><!-- /.col-lg-6 -->
+                </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
                     <i class="fas fa-envelope form-group-icon"></i>
                     <input type="email" class="form-control" placeholder="Email" id="contact-email" name="contact-email"
                       required>
                   </div>
-                </div><!-- /.col-lg-6 -->
+                </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group">
                     <i class="fas fa-phone-alt form-group-icon"></i>
                     <input type="text" class="form-control" placeholder="Phone" id="contact-Phone" name="contact-phone"
                       required>
                   </div>
-                </div><!-- /.col-lg-4 -->
+                </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group form-group-date">
                     <input type="date" class="form-control" id="contact-date" name="contact-date" required>
                   </div>
-                </div><!-- /.col-lg-4 -->
+                </div>
                 <div class="col-sm-6 col-md-6 col-lg-6">
                   <div class="form-group form-group-date">
                     <input type="time" class="form-control" id="contact-time" name="contact-time" required>
                   </div>
-                </div><!-- /.col-lg-4 -->
+                </div>
                 <button type="submit"
                   class="btn hover-slide-right btn__secondary btn__link btn__rounded btn__block btn__xhight mt-10">
                   <span class="position-relative">Book Appointment</span> <i
                     class="position-relative team-arrow fas fa-arrow-right ml-1"></i>
-                </button><!-- /.col-lg-12 -->
-              </div><!-- /.row -->
+                </button>
+              </div>
             </form>
           </div>
-        </div><!-- /.col-lg-7 -->
+        </div>
         <div class="col-sm-12 col-md-12 col-lg-5">
           <div class="heading heading-light mb-30">
             <h3 class="heading__title mb-30 text-justify">Helping Patients From Around the Globe!!</h3>
@@ -1054,7 +1065,7 @@
             <div class="sinature text-white mb-3">
               <span class="font-weight-bold">Martin Qube</span><span>, Medcity Manager</span>
             </div>
-          </div><!-- /.text__block -->
+          </div>
           <div class="mt-5 owl-carousel appointment-logo owl-theme owl-loaded">
             <div class="item w-100">
               <img src="assets/images/clients/1.png" alt="">
@@ -1078,13 +1089,13 @@
               <img src="assets/images/clients/7.png" alt="">
             </div>
           </div>
-        </div><!-- /.col-lg-5 -->
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-    <!-- </section>/.contact layout 3 -->
+        </div>
+      </div>
+    </div>
 
   </section>
   <!-- Appointment Section End -->
+
   <!-- PARTNER SECTION START -->
   <section class="partner-section">
     <div class="container">
@@ -1175,8 +1186,6 @@
                   <li class="pb-3">Wednesday:<span class="service-time">09:00 - 17:00</span></li>
                   <li class="pb-3">Thursday:<span class="service-time">09:00 - 17:00</span></li>
                   <li class="pb-3">Friday:<span class="service-time">09:00 - 17:00</span></li>
-                  <!-- <li class="pb-3">Saturday:<span class="service-time">09:00 - 14:00</span></li>
-                  <li class="pb-3">Sunday:<span class="service-time">Closed</span></li> -->
                 </ul>
               </div>
             </div>
