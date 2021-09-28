@@ -1740,7 +1740,7 @@ text-decoration: none;
     border-radius: 50%;
     visibility: hidden;
     opacity: 0;
-    transition: opacity .3s 0s, visibility 0s .3s;
+    transition: 0.5s;
     font-weight: 900;
     font-size: 15px;
     padding: 4px 11px;
@@ -1752,34 +1752,29 @@ text-decoration: none;
   #back-topi {
     font-size: 15px;
   }
-  #back-top.is-visible,
-  #back-top.is-fade-out,
-  #back-top:hover {
-    transition: opacity .3s 0s, visibility 0s 0s;
-  }
-  #back-top.is-visible {
+   #back-top.is-visible {
     /* the button becomes visible */
     visibility: visible;
     opacity: 1;
+
   }
   #back-top:hover {
-    background-color:  #204066;
+    /* background-color:  #204066; */
     opacity: 1;
-  }
-  #back-top:hover,
-  #back-top:active,
-  #back-top:focus {
-    outline: none;
-    text-decoration: none;
-  }
-
-
-
+transform: translateY(-10px); 
+ }
+ 
 
 
 /* Contact page CSS */
 
-
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active {
+    background-color: white !important;
+    -webkit-box-shadow: 0 0 0 50px white inset;
+}
   .form-group {
     position: relative;
     margin-bottom: 30px;
