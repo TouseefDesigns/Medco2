@@ -759,6 +759,12 @@ input:-internal-autofill-selected{
 }
 
 
+
+
+.about-us-img{
+    border-radius: 10px;
+}
+
   /* ==========================
       Service Section
   ============================*/
@@ -981,7 +987,7 @@ transform: scale(1,1);
     transition: all 0.5s ease;  
 }
 .img:hover{
-    transform: scale(1.1,1.1);
+    transform: scale(1.05,1.05);
 }
 .btn_wrapper{
     position: relative;
@@ -1012,7 +1018,7 @@ transform: scale(1,1);
 
 .btn_wrapper:hover .filter-button::after{
     opacity: 1;
-    width: 45%;
+    width: 80%;
 }
 @media only screen and (max-width:992px){
     .portfolio-menu{
@@ -1023,7 +1029,6 @@ transform: scale(1,1);
         display: none;
     }
     .filter-button::after{
-        bottom: 13px;
         left: 10px;       
     }
     .btn_wrapper:hover .filter-button::after{
@@ -1040,6 +1045,9 @@ transform: scale(1,1);
     }
     .filter-button {
         font-size: 12px;
+    }
+    .filter-button::after{
+        height: 2px;
     }
  }
  @media only screen and (max-width:392px){
