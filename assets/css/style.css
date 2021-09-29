@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,h6{
     margin: 0;
 }
 .font-weight-bold {
-    font-weight: 600 !important;
+    font-weight: 500 !important;
 }
 p{
     font-size: 12px;
@@ -329,6 +329,48 @@ input:-internal-autofill-selected{
 .nav-link.active{
     color: #21cdc0!important;
 }
+/* .dropdown-toggle::after {
+    content: "";
+    border: none;
+} */
+.header-main ul li{
+    position: relative;
+}
+.header-main ul.nav ul {
+    position: absolute;
+    left: 0;
+    top: -2000px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    width: 300px;
+    transform: translate3d(0,-5px,0);
+    transition: transform .3s ease-out;
+    z-index: 9;
+    border-radius: 0 0 5px 5px;
+    padding: 0;
+    box-shadow: 0 5px 30px rgb(0 0 0 / 16%);
+}
+.header-main ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: translate3d(0,0,0);
+    background-color: #ffffff;
+}
+.header-main ul.nav ul li {
+    padding: 8px 20px;
+    list-style: none;
+}
+.header-main ul.nav ul li a {
+    display: block;
+    color: #283b6a;
+    text-decoration: none;
+}
+.header-main ul.nav ul li a:hover{
+    color: #21cdc0!important;
+}
+
 
 /*===============================
 == 5.Main Bannner Carousel CSS ==
@@ -806,6 +848,14 @@ color: #21cdc0;
 }
 
 .btn_wrapper:hover .filter-button::after{
+    opacity: 1;
+    width: 80%;
+}
+.btn_wrapper:active .filter-button::after{
+    opacity: 1;
+    width: 80%;
+}
+.btn_wrapper:visited .filter-button::after{
     opacity: 1;
     width: 80%;
 }
