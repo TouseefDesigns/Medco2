@@ -1,12 +1,9 @@
 !(function ($) {
   "use strict";
 
-
-
-
-  /* 
-     Page Loader
-     ========================================================================== */
+   /*===========================
+  ====== Preloader =======
+  =============================*/
   setTimeout(function () {
     $('.centered').fadeToggle();
   }, 3000);
@@ -197,34 +194,8 @@
 
 
 
-  /*===========================
-  ====== Porfolio Filter ======
-  =============================*/
-  // $(document).ready(function () {
-  //   $(".filter-button").click(function () {
-  //     var value = $(this).attr('data-filter');
-  //     if (value == "all") {
-  //       $('.filter').show('1000');
-  //     }
-  //     else {
-  //       $(".filter").not('.' + value).hide('3000');
-  //       $('.filter').filter('.' + value).show('3000');
-  //     }
-  // active
-  //     $(".filter-button").removeClass('active');
-  //     var $this = $(this);
-  //     if (!$this.hasClass('active')) {
-  //       $this.addClass('active');
-  //     }
-  //   });
-  // });
-  /*===========================
-  ======= Stat Counter ========
-  // =============================*/
-  // $('.counter').counterUp({
-  //   delay: 10,
-  //   time: 1000
-  // });
+
+
   /*===========================
   ======== PopUp Video ========
   =============================*/
@@ -236,35 +207,10 @@
 
 
 
-  // document.getElementById("hideSection").addEventListener("click", function(event){
-  //   event.preventDefault()
-  // });
 
-
-
-  // function sayThanks() {
-  //   document.getElementById("message").innerHTML = "Thankssssss";
-  // }
-
-
-
-
-  $(document).ready(function () {
-    $('#hideSection').click(function () {
-      // if(getElementsByClassName("invalid-feedback")==false)(
-      $.notify({
-        title: 'Heads up!',
-        message: 'You can use any of bootstraps other alert styles as well by default.'
-      }, {
-        type: 'success'
-      });
-
-    });
-  });
-
-
-
-
+  /*===========================
+  == Contact Form Validation ==
+  =============================*/
 
   (function () {
     'use strict';
@@ -284,31 +230,7 @@
     }, false);
   })();
 
-  /*===========================
-  === Testimonial Carousel ====
-  =============================*/
-  // $(document).ready(function (){
-  //   $('#testimonial-carousel').owlCarousel({
-  //     loop: true,
-  //     responsive: {
-  //         0: {
-  //             items: 1
-  //         },
-  //         768: {
-  //             items: 1
-  //         },
-  //         991: {
-  //             items: 1
-  //         },
-  //         1200: {
-  //             items: 1
-  //         },
-  //         1920: {
-  //             items: 1
-  //         }
-  //     }
-  // });
-  //   });
+ 
 
 
 
@@ -357,8 +279,10 @@
     });
   });
 
-
-  window.onload = function () { document.body.scrollTop = document.documentElement.scrollTop = 0; };
+ /*===========================
+  == Page Reloading Problem ==
+  =============================*/
+window.onload = function () { document.body.scrollTop = document.documentElement.scrollTop = 0; };
 
 
 })(jQuery);

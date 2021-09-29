@@ -1,27 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-/* ----------------------
+/* ------------------------
+
+All rights are reserved.
+Made By TouseefDesigns
+
 [Table of contents]
- 
+
+01=>Index Page CSS
+
 01.Default CSS
-01.Preloader CSS
-01.Top Header CSS
-02.Navbar CSS
-03.Main Bannner Carousel CSS
-04.About Section CSS
-05.Services Section CSS
-06.Portfolio Section CSS
-07.Team Section CSS
-08.Stat Section CSS
-09.Pricing Section CSS
-10.Testimonial Section CSS
-11.Contact Section CSS
-12.Footer Section CSS
+02.Preloader CSS
+03.Top Header CSS
+04.Navbar CSS
+05.Main Bannner Carousel CSS
+06.Contact Info Section CSS
+07.About Us Section CSS
+08.Service Section CSS
+09.Portfolio/Research Section CSS
+10.Team Section CSS
+11.Stat Section CSS
+12.Department Section CSS
+13.Blog Section CSS
+14.Client Section CSS
+15.Appointment Section CSS
+16.Partner Section CSS
+17.Footer Section CSS
+18.ToTop Button CSS
+
+02=>Contact Page CSS
+
+03=>Blog Detail Page CSS
 
  --------------------------*/
 
 
 /*===============================
-========== Default CSS ==========
+======== 1.Default CSS ==========
 =================================*/
 
 :active, :hover, :focus {
@@ -93,9 +107,25 @@ p{
     transition: all 0.5s ease;
     border-radius: 10px 10px 0 0 !important;
 }
+.section-title h5 {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 1.5px;
+    color: #9dabaf;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.section-title h2.title {
+    font-weight: 600;
+    font-size: 35px;
+    color: #0e204d;
+    line-height: 50px;
+}
 
 /*===============================
-========== Preloader CSS ==========
+========= 2.Preloader CSS =======
 =================================*/
 
 .centered{
@@ -138,7 +168,7 @@ p{
 }
 
 /*===============================
-========== Top Header CSS =======
+======== 3.Top Header CSS =======
 =================================*/
 
 .list{
@@ -267,7 +297,7 @@ input:-internal-autofill-selected{
 }
 
 /*===============================
-========== Navbar CSS ===========
+========== 4.Navbar CSS =========
 =================================*/
 
 .sticky{
@@ -301,7 +331,7 @@ input:-internal-autofill-selected{
 }
 
 /*===============================
-=== Main Bannner Carousel CSS ===
+== 5.Main Bannner Carousel CSS ==
 =================================*/
 
 .main-banner-img1{
@@ -408,7 +438,7 @@ input:-internal-autofill-selected{
 }
 
 /*===============================
-======= Contact Info Section CSS =======
+=== 6.Contact Info Section CSS ==
 =================================*/
 
 .btn_primary_2 {
@@ -504,15 +534,43 @@ input:-internal-autofill-selected{
 }
 
 /*===============================
-======= About Us Section CSS =======
+===== 7.About Us Section CSS ====
 =================================*/
 
 .about-us-img{
     border-radius: 10px;
 }
+.intro-feature-text{
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0e204d;
+}
+.intro-arrow-style{
+    color: #21cdc0;
+}
+.intro-list-text{
+    font-size: 12px;
+    line-height: 27px;
+    margin-bottom: 30px;
+}
+.btn-intro-list {
+    color: #ffffff;
+    background-color: #21cdc0;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px 50px;
+    transition: all 0.4s linear;
+
+}
+.btn-intro-list:hover {
+    color: #ffffff;
+    background-color: #213360;
+}
+
 
 /*===============================
-===== Services Section CSS ======
+===== 8.Services Section CSS ====
 =================================*/
 
 .service-section{
@@ -648,7 +706,7 @@ input:-internal-autofill-selected{
 }
 
 /*===============================
-= Portfolio/Research Section CSS=
+9.Portfolio/Research Section CSS=
 =================================*/
 
 
@@ -788,7 +846,7 @@ color: #21cdc0;
  }
 
 /*===============================
-======== Team Section CSS =======
+====== 10.Team Section CSS ======
 =================================*/
 
 .team-section{
@@ -924,131 +982,44 @@ text-decoration: none;
 }
 
 /*===============================
-======== Stat Section CSS =======
+======= 11.Stat Section CSS =====
 =================================*/
 
-
-
-/*===============================
-====== Pricing Section CSS ======
-=================================*/
-
-
-
-
-/*===============================
-==== Testimonial Section CSS ====
-=================================*/
-
-
-
-
-/*===============================
-====== Contact Section CSS ======
-=================================*/
-
-
-
-/*===============================
-======= Footer Section CSS ======
-=================================*/
-
-.time_list li {
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
-    border-bottom: 1px solid #dcdee2;
-}
-.time_list_2 li {
-    font-size: 14px;
-    display: flex;
-}
-.footer-top{
-    background-color: #1d2a4d;
+#stat{
+    background-image: url(../images/slider-2.jpg);
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
-    padding: 62px 0 0;
-}
-.style-line {
-    border-top: 3px solid #21cdc0;
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 15px;
-}
-.newsteller{
-    background-color: #204066;
-    padding: 20px 15px;
-    margin-top: 40px;
+    background-attachment: fixed;
 
 }
-.newsteller-text{
-    font-size: 18px;
-}
-
-.newsteller-inputbox {
-    display: flex;
-}
-
-.newsteller-inputbox input[type="email"] {
-    padding: 12px 24px; 
-    border: none;
-    padding-right: 150px;
-    height: 45px;
-    border: 1px solid transparent;
-    border-radius: 100px;
-    text-overflow: ellipsis;
+.stat-overlay{
     overflow: hidden;
-    white-space: nowrap; 
 }
-.newsteller-inputbox input[type="email"]:focus {
-    border: none;
-    border: 1px solid transparent;
-}
-.newsteller-inputbox input[type="email"]:focus-visible {
-    border: none;
-    border: 1px solid transparent;
-}
-
-.newsteller-inputbox button[type="submit"] {
-    background-color: #12b48b;
-    color:white;
-    border: none;
+.stat-overlay::before{
+    content: '';
     position: absolute;
-    right: 12px;
-    font-size: 14px;
-    font-weight: 600;
-    padding: 8px 17px 7px;
-    height: 45px;
-    border-radius: 0 2em 2em 0;
-    transition: all 0.35s ease;
+    top: 0;
+    left: 0;
+    color: white;
+    background-color: rgb(29 42 77 / 70%);
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+} 
+#stat  h2{
+    font-size: 30px!important;
+    margin-bottom: 10px;
 }
-.newsteller-inputbox button[type="submit"]:hover {
-    border: 1px solid #fff;
-    color: #fff;
-    background-color: #204066;
+#stat  h4{
+    font-size: 18px!important;
+    margin-bottom: 5px;
 }
-
-
-  
-
-
-
-
-
-
-
-
-/* .time_list_3 li {
-    font-size: 14px;
-    display: flex;
-    justify-content: space-between;
-
-} */
-
 
 /*===============================
-======== Department Section CSS =======
+=== 12.Department Section CSS ===
 =================================*/
 .department-section{
     background-color: #1d2a4d;
@@ -1090,31 +1061,26 @@ transform: scale(1.05);
     color: #ffffff !important;
     background-color: #21cdc0 !important;
   }
-  
+ 
 /*===============================
-======== Blog Section CSS =======
+====== 13.Blog Section CSS ======
 =================================*/
-  .blog-section{
+.blog-section{
     background-color: #21cdc0;
-}
-
-  
+}  
 .post-item:hover {
     box-shadow: 0px 5px 83px 0px rgba(9, 29, 62, 0.15);
  }
-
  .post-item:hover .post__img img {
    transform: scale(1.1) rotate(1deg);
  }
-
 .post-item {
     background-color: white;
     position: relative;
     border-radius: 10px;
     margin-bottom: 30px;
     transition: all 0.3s linear;
-  }
-  
+  } 
   .post-item .post__img {
     position: relative;
     overflow: hidden;
@@ -1123,14 +1089,12 @@ transform: scale(1.05);
   .post-item .post__img img {
     transition: all 0.5s ease;
   }
-
   .post-item .post__body {
     position: relative;
     z-index: 3;
     padding: 0 30px 30px 37px;
     margin-top: -15px;
   }
-  
   .post-item .post__meta-cat {
     padding: 4px 13px;
     display: inline-block;
@@ -1165,8 +1129,6 @@ transform: scale(1.05);
   .post-item .post__meta-cat a:last-child:after {
     display: none;
   }
-  
-
   .post-item .post__meta {
     margin-bottom: 15px;
   }
@@ -1194,7 +1156,6 @@ transform: scale(1.05);
   .post-item .post__meta > *:last-child:after {
     display: none;
   }
-
   .post-item .post__title {
     font-size: 20px;
     margin-bottom: 15px;
@@ -1206,7 +1167,6 @@ transform: scale(1.05);
   .post-item .post__title a:hover {
     color: #21cdc0;
   }
-  
   .post-item .btn__link.btn__secondary {
     transition: all 0.4s linear;
     font-size: 15px;
@@ -1220,17 +1180,60 @@ transform: scale(1.05);
     color: #ffffff !important;
     background-color: #21cdc0 !important;
   }
-
   .post-item:hover .btn__link.btn__secondary {
     color: #ffffff;
     background-color: #213360;
   }
-  
-/*===============================
-======== Appointment Section CSS =======
-=================================*/
 
-  .appointment-section{
+/*===============================
+====== 14.Client Section CSS ====
+=================================*/
+#client{
+    background-image: url(../images/client-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
+.testi-overlay::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29 42 77 / 75%);
+}
+.testi-img{
+    width: 100px !important;
+    margin: 0 auto;
+}    
+.testi-box{
+    padding: 50px 30px 30px;
+    background-color: #21cdc0;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+}
+.testi-box p{
+    font-size: 14px;
+}
+.testi-box .client-h6{
+    color: #213360;
+}
+.testi-box .client-p{
+    font-size: 12px;
+}
+.testi-qoute{
+    font-size: 20px;
+}
+
+/*===============================
+=== 15.Appointment Section CSS ==
+=================================*/
+.appointment-section{
     background-color: #21cdc0;
 }
   .contact-panel {
@@ -1307,8 +1310,6 @@ transform: scale(1.05);
 .heading__desc {
     font-size: 16px;
     line-height: 1.75;
-
-    /* margin-bottom: 0; */
 }
 .appointment-section .btn__rounded {
     border-radius: 50px;
@@ -1330,7 +1331,6 @@ transform: scale(1.05);
 .appointment-section .btn__white:hover{
     color: #ffffff;
     background-color: #213360;
-
 } 
 .video__btn {
     text-align: center;
@@ -1371,126 +1371,22 @@ text-decoration: none;
     white-space: nowrap;
     margin-left: 12px;
 }
-
 .contact-layout3 .text__block {
     margin-top: 50px;
     padding-top: 45px;
     border-top: 2px solid rgba(231, 235, 239, 0.3);
   }
-  
+
   .contact-layout3 .text__block .text__block-desc {
     font-size: 17px;
     font-weight: 600;
-    line-height: 1.75;
-
+    line-height: 1.75
   }
-/*===============================
-======== Client Section CSS =======
-=================================*/
-
-#client{
-    background-image: url(../images/client-bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-    background-attachment: fixed;
-    color: white;
-}
-.testi-overlay::before{
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgb(29 42 77 / 75%);
-}
-.testi-img{
-    width: 100px !important;
-    margin: 0 auto;
-}    
-.testi-box{
-    padding: 50px 30px 30px;
-    background-color: #21cdc0;
-    border-radius: 10px;
-    width: 80%;
-    margin: 0 auto;
-    align-items: center;
-}
-.testi-box p{
-    font-size: 14px;
-}
-.testi-box .client-h6{
-    color: #213360;
-}
-.testi-box .client-p{
-    font-size: 12px;
-}
-.testi-qoute{
-    font-size: 20px;
-}
 
 /*===============================
-======== Stat Section CSS =======
+===== 16.Partner Section CSS ====
 =================================*/
 
-/* Appointment page CSS */
-#appointment-stat{
-    background-image: url(../images/appointment-img.jpg);
-    height: 100%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #21cdc0;
-    background-attachment: fixed;
-}
-.page-title-heading h2 {
-    font-weight: 600;
-    text-transform: capitalize;
-     font-size: 40px;
-    /* line-height: 46px;
-    margin-bottom: 5px; */
-}
-
-#stat{
-    background-image: url(../images/slider-2.jpg);
-    height: 50%; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    background-attachment: fixed;
-
-}
-.stat-overlay{
-    overflow: hidden;
-}
-.stat-overlay::before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    color: white;
-    background-color: rgb(29 42 77 / 70%);
-    opacity: 1;
-    width: 100%;
-    height: 100%;
-} 
-#stat  h2{
-    font-size: 30px!important;
-    margin-bottom: 10px;
-}
-#stat  h4{
-    font-size: 18px!important;
-    margin-bottom: 5px;
-}
-
-
-
-
-/* ==========================
-    PARTNET START
-============================*/
 .partner-section {
     padding: 90px 0px 85px 0px;
     position: relative;
@@ -1517,18 +1413,85 @@ text-decoration: none;
       margin-top: 50px;
     }
   }
-  
+   
+/*===============================
+===== 17.Footer Section CSS =====
+=================================*/
 
+.time_list li {
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #dcdee2;
+}
+.time_list_2 li {
+    font-size: 14px;
+    display: flex;
+}
+.footer-top{
+    background-color: #1d2a4d;
+    color: white;
+    padding: 62px 0 0;
+}
+.style-line {
+    border-top: 3px solid #21cdc0;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+.newsteller{
+    background-color: #204066;
+    padding: 20px 15px;
+    margin-top: 40px;
 
+}
+.newsteller-text{
+    font-size: 18px;
+}
 
+.newsteller-inputbox {
+    display: flex;
+}
 
-
-
-
-
-
-
-
+.newsteller-inputbox input[type="email"] {
+    padding: 12px 24px; 
+    border: none;
+    padding-right: 150px;
+    height: 45px;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.newsteller-inputbox input[type="email"]:focus {
+    border: none;
+    border: 1px solid transparent;
+}
+.newsteller-inputbox input[type="email"]:focus-visible {
+    border: none;
+    border: 1px solid transparent;
+}
+.newsteller-inputbox button[type="submit"] {
+    background-color: #12b48b;
+    color:white;
+    border: none;
+    position: absolute;
+    right: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 17px 7px;
+    height: 45px;
+    border-radius: 0 2em 2em 0;
+    transition: all 0.35s ease;
+}
+.newsteller-inputbox button[type="submit"]:hover {
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #204066;
+}
 .copyright {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1542,79 +1505,8 @@ text-decoration: none;
     color: #21cdc0;
 }
 
-
-.section-title h5 {
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: 1.5px;
-    color: #9dabaf;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.section-title h2.title {
-    font-weight: 600;
-    font-size: 35px;
-    color: #0e204d;
-    line-height: 50px;
-}
-/* h1, h2, h3, h4, h5, h6 {
-    margin-bottom: 15px;
-    font-weight: 600;
-    color: #0e204d;
-} */
-.intro-feature-text{
-    margin-bottom: 15px;
-    font-weight: 600;
-    color: #0e204d;
-}
-.intro-arrow-style{
-    color: #21cdc0;
-}
-.intro-list-text{
-    font-size: 12px;
-    line-height: 27px;
-    margin-bottom: 30px;
-}
-.btn-intro-list {
-    color: #ffffff;
-    background-color: #21cdc0;
-    border-radius: 50px;
-    font-size: 15px;
-    font-weight: 700;
-    padding: 15px 50px;
-    transition: all 0.4s linear;
-
-}
-.btn-intro-list:hover {
-    color: #ffffff;
-    background-color: #213360;
-}
-
-
-
-
-
-/* NEW CODE */
-
-.btn.hover-slide-right::before {
-    top: 0; bottom: 0; left: 0; 
-    height: 100%; width: 0%;
-    border-radius: 50px;
-    position: absolute;
-    content: "";
-  }
-  .btn.hover-slide-right:hover::before {
-    width: 100%;
-    border-radius: 50px;
-    position: absolute;
-    content: "";
-  }
-
-
 /*===============================
-====== ToTop Button CSS ======
+====== 18.ToTop Button CSS ======
 =================================*/
 #back-top {
     display: inline-block;
@@ -1644,14 +1536,31 @@ text-decoration: none;
     /* the button becomes visible */
     visibility: visible;
     opacity: 1;
-
   }
   #back-top:hover {
     /* background-color:  #204066; */
     opacity: 1;
 transform: translateY(-10px); 
  }
- 
+
+/* .btn.hover-slide-right::before {
+    top: 0; bottom: 0; left: 0; 
+    height: 100%; width: 0%;
+    border-radius: 50px;
+    position: absolute;
+    content: "";
+  }
+  .btn.hover-slide-right:hover::before {
+    width: 100%;
+    border-radius: 50px;
+    position: absolute;
+    content: "";
+  } */
+
+
+
+
+
 
 
 /*===============================
@@ -1664,6 +1573,20 @@ input:-webkit-autofill:focus,
 input:-webkit-autofill:active {
     background-color: white !important;
     box-shadow: 0 0 0 50px white inset;
+}
+#appointment-stat{
+    background-image: url(../images/appointment-img.jpg);
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #21cdc0;
+    background-attachment: fixed;
+}
+.page-title-heading h2 {
+    font-weight: 600;
+    text-transform: capitalize;
+     font-size: 40px;
 }
 .form-group {
     position: relative;
