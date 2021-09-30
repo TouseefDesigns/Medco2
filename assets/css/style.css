@@ -1062,7 +1062,8 @@ text-decoration: none;
     top: 0;
     left: 0;
     color: white;
-    background-color: rgb(29 42 77 / 70%);
+    /* background-color: rgb(29 42 77 / 70%); */
+    background-color: #21cdc080;
     opacity: 1;
     width: 100%;
     height: 100%;
@@ -1070,10 +1071,16 @@ text-decoration: none;
 #stat  h2{
     font-size: 30px!important;
     margin-bottom: 10px;
+    
+    
 }
 #stat  h4{
     font-size: 18px!important;
     margin-bottom: 5px;
+    color: #1d2a4d;
+}
+.stat-icon-style{
+    color: #1d2a4d;
 }
 
 /*===============================
