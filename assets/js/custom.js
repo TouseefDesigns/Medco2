@@ -282,7 +282,7 @@
  /*===========================
   == Page Reloading Problem ==
   =============================*/
-window.onload = function () { document.body.scrollTop = document.documentElement.scrollTop = 0; };
+// window.onload = function () { document.body.scrollTop = document.documentElement.scrollTop = 0; };
 
 
 })(jQuery);

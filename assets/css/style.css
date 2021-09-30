@@ -123,6 +123,9 @@ p{
     color: #0e204d;
     line-height: 50px;
 }
+h4{
+    font-weight: 600 !important;
+}
 
 /*===============================
 ========= 2.Preloader CSS =======
@@ -507,6 +510,7 @@ input:-internal-autofill-selected{
     z-index: 3;
     margin-top: -100px;
     color: white;
+    padding-bottom: 0;
 }
 .contact-box{
     align-items: center;
@@ -643,7 +647,7 @@ input:-internal-autofill-selected{
 .btn_services{
     font-size: 15px;
     font-weight: 700;
-    padding: 18px 30px 18px 30px;
+    padding: 18px;
     transition: all 0.4s linear;
     position: relative;
     border: none;
@@ -1293,7 +1297,7 @@ transform: scale(1.05);
   .contact-panel {
     position: relative;
     z-index: 2;
-    padding: 60px;
+    padding: 40px;
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 0px 5px 83px 0px rgb(9 29 62 / 10%);
@@ -1689,7 +1693,7 @@ textarea.form-control {
     color: #ffffff;
     border-radius: 50px;
     font-weight: 600;
-    height: 70px;
+    height: 60px;
     line-height: 50px;
     background-color: #213360;
     border: 0;

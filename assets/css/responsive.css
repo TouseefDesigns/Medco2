@@ -479,7 +479,10 @@ p{
         width: 50px;
         height: 50px;
         line-height: 50px;
-       
+        margin: 0 0 0 10px;
+    }
+    .video__btn {
+        padding-left: 75px;
     }
     .section-title h2.title {
         font-weight: 600;
@@ -542,7 +545,7 @@ margin-top: 1rem !important;
         /* margin-bottom: 0; */
     }
     .video__btn .video__btn-title {
-        font-size: 13px;
+        font-size: 12px;
     margin-left: 0;
     }
     .contact-layout3 .text__block .text__block-desc {
@@ -586,4 +589,22 @@ margin-top: 1rem !important;
         background-color: #ffffff;
         transition: all 0.4s ease;
     }
+    .form-control{
+        font-size: 12px;
+    }
+}
+@media only screen and (max-width: 320px){
+.btn_wrapper {
+    margin: -10px;
+}
+}
+@media only screen and (max-width: 767px){
+.contact-box {
+    flex-direction: column;
+}
+}
+@media only screen and (max-width: 992px){
+.heading__title {
+    margin-top: 20px;
+}
 }
