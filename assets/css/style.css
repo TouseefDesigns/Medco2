@@ -343,7 +343,7 @@ input:-internal-autofill-selected{
     opacity: 0;
     visibility: hidden;
     background-color: #fff;
-    width: 300px;
+    width: 200px;
     transform: translate3d(0,-5px,0);
     transition: transform .3s ease-out;
     z-index: 9;
@@ -369,6 +369,10 @@ input:-internal-autofill-selected{
 }
 .header-main ul.nav ul li a:hover{
     color: #21cdc0!important;
+}
+.navbar-nav .nav-link {
+    padding-right: 16px;
+    padding-left: 16px;
 }
 
 
