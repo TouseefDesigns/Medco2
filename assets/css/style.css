@@ -510,7 +510,7 @@ input:-internal-autofill-selected{
     z-index: 3;
     margin-top: -100px;
     color: white;
-    padding-bottom: 0;
+    /* padding-bottom: 0; */
 }
 .contact-box{
     align-items: center;
@@ -667,7 +667,7 @@ input:-internal-autofill-selected{
     font-size: 15px;
     font-weight: 700;
     padding: 18px;
-    transition: all 0.3s linear;
+    transition: all 0.4s linear;
     position: relative;
     border: none;
     z-index: 10;
@@ -1621,7 +1621,7 @@ text-decoration: none;
     height: 30px;
     width: 30px;
     bottom: 10px;
-    right: 15px;
+    right: 14px;
   }
   #back-topi {
     font-size: 15px;
