@@ -748,7 +748,7 @@ input:-internal-autofill-selected{
     }
  } */
 .services-icon-box:hover{
-    box-shadow: 0 0 15px 0 #e9ecef;
+    box-shadow: 0 0 14px 0 #e5e5e55e;
     border-radius: 10px;
     /* background-color: white; */
     /* border: 1px solid #213360; */
@@ -779,7 +779,7 @@ input:-internal-autofill-selected{
     transition: all 0.5s ease;
 }
 .service-a{
-    color: #21cdc0 !important;
+    color: #213360 !important;
     font-size: 12px;
     font-weight: 600;
 }
