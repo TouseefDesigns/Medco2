@@ -662,8 +662,8 @@ input:-internal-autofill-selected{
     background-color: white;
 }
 .service-btn-blue{
-    color: #213360;
-    border: 1px #213360 solid !important;
+    color: #0e204d;
+    border: 1px #0e204d solid !important;
     font-size: 15px;
     font-weight: 700;
     padding: 18px;
@@ -748,7 +748,7 @@ input:-internal-autofill-selected{
     }
  } */
 .services-icon-box:hover{
-    box-shadow: 0 0 4px 0 #213360; 
+    box-shadow: 0 0 15px 0 #e9ecef;
     border-radius: 10px;
     /* background-color: white; */
     /* border: 1px solid #213360; */
