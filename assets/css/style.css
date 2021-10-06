@@ -1021,7 +1021,6 @@ text-decoration: none;
     border-radius: 10px;
     padding: 50px 20px;
     margin-bottom: 30px;
-    /* background-color: #fff; */
     transition: all 0.4s linear;
     color: white;
 }
@@ -1043,7 +1042,6 @@ transform: scale(1.05);
     border-radius: 50px;
     padding: 8px;
     border: 1px solid white;
-    /* background-color: #21cdc0 !important; */
   }
   .service-item .btn__link.btn__secondary .team-arrow  {
     font-size: 12px;
@@ -1523,7 +1521,6 @@ text-decoration: none;
     opacity: 1;
   }
   #back-top:hover {
-    /* background-color:  #204066; */
     opacity: 1;
 transform: translateY(-10px); 
  }
@@ -1657,7 +1654,7 @@ textarea.form-control {
     color: #ffffff;
 }
 .breadcrumb-item-a:hover{
-    color: #21cdc0;
+    color: #213360;
 }
 .pagination li {
     margin-right: 10px;
@@ -1765,9 +1762,6 @@ textarea.form-control {
   .read_more_area .post__meta > *:last-child:after {
     display: none;
   }
-  .read_more_datecomment{
-    font-size: 95%;
-  }
   .read_more_text h3 {
     border-top: 1px solid;
     color: #0e204d;
@@ -1780,19 +1774,6 @@ textarea.form-control {
     border-color: #cfd2d5;
 
 }
-.read_more_comment{
-   float: right;
-  }
-  .read_more_comment a{
-   text-decoration: none ;
-   color: #6c757d;
-  }
-  .read_more_comment a:hover{
-   color: var(--red-color);
-  }
-  .calender-comment{
-    color: #6c757d;
-  }
 .blockquote{
    margin-top: 3%;
    margin-bottom: 3%;
@@ -2008,109 +1989,15 @@ textarea.form-control {
   .blockquote p{
    margin-bottom: 0%;
   }
-  .icons_list:hover{
-    color: #bd2433;
-  }
-  .social_tags{
-   font-weight: bold;
-   font-size: 80%!important;
-   width: 100%;
-  }
-  .social_tags ul{
-   list-style-type: none;
-  }
-  .social_tags li{
-   display: inline-block;
-   margin: 1%;
-  }
-  .social_tags li a{
-   text-decoration: none;
-   padding: 2%;
-   color:var(--red-color);
-  }
-  .social_icons{
-   font-size: 90%!important;
-   width: 100%;
-  }
-  .social_icons li{
-   display: inline;
-   padding: 1%;
-   margin: 0%;
-  }
-  .social_icons_list a{
-   color: var(--red-color);
-  }
-  .social_icons_list a:hover{
-    color: var(--red-color);
-  }
-  .social_icons ul{
-   list-style-type: none;
-   text-align: right;
-   margin-bottom: 0%;
-   margin-right: 4%;
-  }
-  .comment_section img{
-    border-radius: 5px;
-    width: auto;
-  }
-  .comment_section h3{
-   color: var(--red-color);
-  }
   .total_comments a{
    text-decoration: none;
    color: #6c757d;
-  }
-  #reply_comment{
-   margin-left: 5%;
-   background-color: #f5f3f5;
-   padding: 3%;
-   margin-top: 2%;
-   margin-bottom: 6%;
-   border-radius: 5px;
-  }
-  .media-body h5 a{
-   color: var(--black-color);
-   text-decoration: none;
-  }
-  .reply_button a{
-   color: var(--red-color);
-   font-size: 80%;
   }
   .comment_form .form-control{
    margin-top: 2%;
   }
   .comment_form .high{
    height: 55px;
-  }
-  .search_box .search{
-   padding: 5% 5%;
-   border-radius: 5px;
-   border: none;
-   height: 40px;
-   width: 100%;
-   background-color: whitesmoke;
-  }
-  .search_icon{
-   color: var(--orange);
-   position: absolute;
-   top: 36px;
-   right: 30px;
-  }
-  .categories ul{
-   padding-left: 0%;
-   list-style-type: none;
-  }
-  .categories span{
-   float: right;
-   color: var(--black-color);
-  }
-  .categories li a{
-   text-decoration: none;
-   font-weight: bold;
-   color:var(--red-color);
-  }
-  .categories li{
-   margin-top: 3%;
   }
   .popular_posts_linkdate{
    font-size: 80%;
@@ -2119,23 +2006,7 @@ textarea.form-control {
     border-radius: 5px;
     width: 30%;
   }
-  .popular_posts_linkdate a{
-   color: var(--red-color);
+  .popular_posts_linkdate a, .popular_posts_linkdate span{
+   color:#213360;
   }
-  .popular_tags .tags a{
-    font-size: 13px;
-    text-decoration: none;
-    border-radius: 5px;
-    color: var(--red-color);
-    background-color: whitesmoke;
-    padding: 15% 20%;
-  }
-  .tags ul li {
-   display: inline-block;
-   margin: 5%;
-  }
-  .popular_tags h6{
-   font-weight: bold;
-  }
-  
- 
+
