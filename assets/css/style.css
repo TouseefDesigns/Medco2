@@ -124,7 +124,11 @@ p{
 h4{
     font-weight: 600 !important;
 }
-
+img {
+    width: 100%; /* or max-width: 100%; */
+    height: auto;
+  }
+  
 /*===============================
 ========= 2.Preloader CSS =======
 =================================*/
