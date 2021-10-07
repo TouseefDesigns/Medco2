@@ -128,7 +128,7 @@ img {
     width: 100%; /* or max-width: 100%; */
     height: auto;
   }
-  
+
 /*===============================
 ========= 2.Preloader CSS =======
 =================================*/
@@ -381,14 +381,14 @@ input:-internal-autofill-selected{
 =================================*/
 
 .main-banner-img1{
-    background-image: url(../images/slider-1.jpg);
+    background-image: url(../images/slider-1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     height: 80vh;
 }
 .main-banner-img2{
-    background-image: url(../images/slider-2.jpg);
+    background-image: url(../images/slider-2.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -976,7 +976,7 @@ text-decoration: none;
 =================================*/
 
 #stat{
-    background-image: url(../images/slider-2.jpg);
+    background-image: url(../images/slider-2.webp);
     height: 50%; 
     background-position: center;
     background-repeat: no-repeat;
@@ -1182,7 +1182,7 @@ transform: scale(1.05);
 ====== 14.Client Section CSS ====
 =================================*/
 #client{
-    background-image: url(../images/client-bg.jpg);
+    background-image: url(../images/client-bg.webp);
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
@@ -1540,7 +1540,7 @@ input:-webkit-autofill:active {
     box-shadow: 0 0 0 50px white inset;
 }
 #appointment-stat{
-    background-image: url(../images/appointment-img.jpg);
+    background-image: url(../images/appointment-img.webp);
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
