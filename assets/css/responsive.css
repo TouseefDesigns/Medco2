@@ -27,9 +27,6 @@
                     .emergency-drop {
                       display: none!important;
                     }
-                   .navbar-nav .first-child{
-                       margin-top: 15px;
-                   }
                     .newsteller {
                         padding: 10px 15px;
                         margin-top: 40px;
@@ -325,10 +322,12 @@ margin-top: 1rem !important;
     margin: -10px;
 }
 }
-@media (max-width: 767px){
-    .navbar .navbar-toggler{
-   max-height: 100vh;
-   overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  }
+@media (max-width: 991px){
+    .navbar-collapse {
+        overflow-y: auto;
+        max-height: 280px;
+      }
+      .navbar-nav .first-child{
+        margin-top: 15px;
+    }
 }
