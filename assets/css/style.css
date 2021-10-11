@@ -389,6 +389,8 @@ input:-internal-autofill-selected{
     background-repeat: no-repeat;
     background-position: center;
     height: 80vh;
+    display: flex;
+    align-items: center;
 }
 .main-banner-img2{
     background-image: url(../images/slider-2.webp);
@@ -396,10 +398,11 @@ input:-internal-autofill-selected{
     background-repeat: no-repeat;
     background-position: center;
     height: 80vh;
+    display: flex;
+    align-items: center;
 }
 .main-banner-txt{
     position: absolute;
-    bottom: 100px;
     left: 0;
     right: 0;
     width: 100%;

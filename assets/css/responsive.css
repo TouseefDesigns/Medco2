@@ -179,10 +179,13 @@
         right: 100px;
     }
     .main-banner-txt h2{
-        font-size: 50px;
+        font-size: 47px;
+        margin-bottom: 20px;
+
     }
     .main-banner-txt p{
-        font-size: 14px;
+        font-size: 13px;
+        margin-bottom: 20px;
     }
 }
 @media only screen and (max-width:500px){
