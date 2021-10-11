@@ -446,7 +446,7 @@ input:-internal-autofill-selected{
     border-radius: 50px;
     font-size: 15px;
     font-weight: 700;
-    padding: 18px 16px 18px 16px;
+    padding: 18px;
     transition: all 0.4s linear;
     position: relative;
     border: none;
@@ -481,8 +481,9 @@ input:-internal-autofill-selected{
     background-color: transparent;
     border: 1px white solid;
     border-radius: 50px;
-    font-size: 12px;
-    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 14px;
     transition: all 0.4s linear;
 }
 .btn_primary_2:hover {
@@ -583,7 +584,7 @@ input:-internal-autofill-selected{
     border-radius: 50px;
     font-size: 15px;
     font-weight: 700;
-    padding: 15px 50px;
+    padding: 18px 35px;
     transition: all 0.4s linear;
 
 }
