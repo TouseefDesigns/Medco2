@@ -325,3 +325,10 @@ margin-top: 1rem !important;
     margin: -10px;
 }
 }
+@media (max-width: 767px){
+    nav.navbar{
+     max-height: 100vh;
+     overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    }
+  }
