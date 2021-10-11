@@ -307,7 +307,9 @@ input:-internal-autofill-selected{
 /* .navbar-collapse {
     height: 100vh;
 } */
-
+.nav-item div{
+    cursor: pointer;
+}
 .sticky{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background: rgba(255, 255, 255);
