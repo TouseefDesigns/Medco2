@@ -385,7 +385,9 @@ input:-internal-autofill-selected{
     border: none;
 }
 
-
+.dropdown:hover>.dropdown-menu {
+    display: block;
+  }
 
 
 

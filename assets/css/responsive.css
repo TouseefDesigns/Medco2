@@ -323,10 +323,10 @@ margin-top: 1rem !important;
 }
 }
 @media (max-width: 991px){
-    /* .navbar-collapse {
+    .navbar-collapse {
         overflow-y: auto;
         max-height: 280px;
-      } */
+      }
       .navbar-nav .first-child{
         margin-top: 15px;
     }
