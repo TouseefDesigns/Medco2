@@ -304,12 +304,6 @@ input:-internal-autofill-selected{
 /*===============================
 ========== 4.Navbar CSS =========
 =================================*/
-/* .navbar-collapse {
-    height: 100vh;
-} */
-/* .nav-item div{
-    cursor: pointer;
-} */
 .sticky{
     box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
     background: rgba(255, 255, 255);
@@ -342,28 +336,6 @@ input:-internal-autofill-selected{
 .header-main ul li{
     position: relative;
 }
-/* .header-main ul.nav ul {
-    position: absolute;
-    left: 0;
-    top: -2000px;
-    opacity: 0;
-    visibility: hidden;
-    background-color: #fff;
-    width: 200px;
-    transform: translate3d(0,-5px,0);
-    transition: transform .3s ease-out;
-    z-index: 9;
-    border-radius: 0 0 5px 5px;
-    padding: 0;
-    box-shadow: 0 5px 30px rgb(0 0 0 / 16%);
-}
-.header-main ul li:hover > ul {
-    opacity: 1;
-    visibility: visible;
-    top: 100%;
-    transform: translate3d(0,0,0);
-    background-color: #ffffff;
-} */
 .header-main ul.nav ul li {
     padding: 8px 20px;
     list-style: none;
@@ -413,7 +385,6 @@ input:-internal-autofill-selected{
     color: #283b6a;
 }
 .dropdown-item:hover, .dropdown-item:focus {
-    /* color: #16181b; */
     text-decoration: none;
     background-color: white;
 }
@@ -1451,11 +1422,6 @@ color: #21cdc0;
     font-weight: 600;
     line-height: 1.75
   }
-
-
-
-
- 
 
 /*===============================
 ===== 16.Partner Section CSS ====
