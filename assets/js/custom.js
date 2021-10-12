@@ -33,8 +33,6 @@
     },300);
   });
   
-  /* this is not needed, just prevents page reload when a dd link is clicked */
-  $('.dropdown a').on('click tap', e => e.preventDefault())
 
   /*===========================
   ====== Porfolio Filter ======
